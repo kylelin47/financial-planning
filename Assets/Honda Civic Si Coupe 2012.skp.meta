@@ -1,0 +1,241 @@
+fileFormatVersion: 2
+guid: 3f84c5ae4307f82499acf9b2cfe882a7
+timeCreated: 1461254226
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 42eb2b2ac8d8c77ba410ad4d7287ed9a
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: -15.737334, y: 1.5662305, z: -4.480544}
+      lookAt: {x: 1.0370686, y: 1.5662305, z: 4.329097}
+      up: {x: -1.6154288e-18, y: 1, z: 3.0759317e-18}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bonnet_ok
+    100002: boot_ok
+    100004: brake
+    100006: brake 1
+    100008: brake 2
+    100010: brake 3
+    100012: bump_fro01
+    100014: bump_rea01
+    100016: chassis
+    100018: Door Glass
+    100020: Door Glass 1
+    100022: door_lf_ok
+    100024: door_lf_ok 1
+    100026: Front Seat
+    100028: Front Seat 1
+    100030: glass
+    100032: glass01
+    100034: glass_inte
+    100036: Headlight Glass
+    100038: //RootNode
+    100040: interior
+    100042: interior_MeshPart0
+    100044: interior_MeshPart1
+    100046: interior_MeshPart2
+    100048: Rear Headrest
+    100050: Rear Headrest 1
+    100052: skp3735
+    100054: Speaker
+    100056: Speaker 1
+    100058: Tail Light Glass
+    100060: wheel01
+    100062: wheel01 1
+    100064: wheel01 2
+    100066: wheel01 3
+    400000: bonnet_ok
+    400002: boot_ok
+    400004: brake
+    400006: brake 1
+    400008: brake 2
+    400010: brake 3
+    400012: bump_fro01
+    400014: bump_rea01
+    400016: chassis
+    400018: Door Glass
+    400020: Door Glass 1
+    400022: door_lf_ok
+    400024: door_lf_ok 1
+    400026: Front Seat
+    400028: Front Seat 1
+    400030: glass
+    400032: glass01
+    400034: glass_inte
+    400036: Headlight Glass
+    400038: //RootNode
+    400040: interior
+    400042: interior_MeshPart0
+    400044: interior_MeshPart1
+    400046: interior_MeshPart2
+    400048: Rear Headrest
+    400050: Rear Headrest 1
+    400052: skp3735
+    400054: Speaker
+    400056: Speaker 1
+    400058: Tail Light Glass
+    400060: wheel01
+    400062: wheel01 1
+    400064: wheel01 2
+    400066: wheel01 3
+    2300000: bonnet_ok
+    2300002: boot_ok
+    2300004: brake
+    2300006: brake 1
+    2300008: brake 2
+    2300010: brake 3
+    2300012: bump_fro01
+    2300014: bump_rea01
+    2300016: chassis
+    2300018: Door Glass
+    2300020: Door Glass 1
+    2300022: door_lf_ok
+    2300024: door_lf_ok 1
+    2300026: Front Seat
+    2300028: Front Seat 1
+    2300030: glass
+    2300032: glass01
+    2300034: glass_inte
+    2300036: Headlight Glass
+    2300038: interior_MeshPart0
+    2300040: interior_MeshPart1
+    2300042: interior_MeshPart2
+    2300044: Rear Headrest
+    2300046: Rear Headrest 1
+    2300048: Speaker
+    2300050: Speaker 1
+    2300052: Tail Light Glass
+    2300054: wheel01
+    2300056: wheel01 1
+    2300058: wheel01 2
+    2300060: wheel01 3
+    3300000: bonnet_ok
+    3300002: boot_ok
+    3300004: brake
+    3300006: brake 1
+    3300008: brake 2
+    3300010: brake 3
+    3300012: bump_fro01
+    3300014: bump_rea01
+    3300016: chassis
+    3300018: Door Glass
+    3300020: Door Glass 1
+    3300022: door_lf_ok
+    3300024: door_lf_ok 1
+    3300026: Front Seat
+    3300028: Front Seat 1
+    3300030: glass
+    3300032: glass01
+    3300034: glass_inte
+    3300036: Headlight Glass
+    3300038: interior_MeshPart0
+    3300040: interior_MeshPart1
+    3300042: interior_MeshPart2
+    3300044: Rear Headrest
+    3300046: Rear Headrest 1
+    3300048: Speaker
+    3300050: Speaker 1
+    3300052: Tail Light Glass
+    3300054: wheel01
+    3300056: wheel01 1
+    3300058: wheel01 2
+    3300060: wheel01 3
+    4300000: Mesh bonnet_ok
+    4300002: Mesh chassis
+    4300004: Mesh Headlight Glass
+    4300006: Mesh Tail Light Glass
+    4300008: Mesh bump_fro01
+    4300010: Mesh glass
+    4300012: Mesh bump_rea01
+    4300014: Mesh boot_ok
+    4300016: Mesh door_lf_ok
+    4300018: Mesh Door Glass
+    4300020: Mesh glass01
+    4300022: Mesh glass_inte
+    4300024: Mesh wheel01
+    4300026: Mesh interior_MeshPart0
+    4300028: Mesh interior_MeshPart1
+    4300030: Mesh interior_MeshPart2
+    4300032: Mesh Rear Headrest
+    4300034: Mesh Speaker
+    4300036: Mesh Front Seat
+    4300038: Mesh brake
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

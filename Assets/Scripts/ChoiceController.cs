@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEditor.SceneManagement;
 
 public class ChoiceController : MonoBehaviour {
 	public bool choice1;
@@ -7,10 +8,10 @@ public class ChoiceController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		DontDestroyOnLoad (transform.gameObject);
+		Debug.Log(EditorSceneManager.GetActiveScene ().name);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
 	}
 }
