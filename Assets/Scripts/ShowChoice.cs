@@ -17,7 +17,6 @@ public class ShowChoice : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (!isVisible && Vector3.Distance (waypoint.position, player.position) < minimumDistance) {
-			Debug.Log ("hello");
 			foreach (Transform child in transform) {
 				child.gameObject.SetActive(true);
 			}

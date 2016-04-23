@@ -22,8 +22,12 @@ public class ChoiceController : MonoBehaviour {
 	void Update () {
 		if (activeScene == "Kyle - Choice 1") {
 			if (canMakeChoice) {
-				if (Input.GetButton("Fire1") || Input.GetKey(KeyCode.Space)) {
-					EditorSceneManager.LoadScene("Kyle - Sportscar");
+				if (Input.GetButton ("Fire1") || Input.GetKey (KeyCode.Space)) {
+					choice1 = true;
+					EditorSceneManager.LoadScene ("Kyle - Sportscar");
+				} else if (Input.GetButton ("Fire2") || Input.GetKey (KeyCode.N)) {
+					choice1 = false;
+					EditorSceneManager.LoadScene ("Kyle - Sportscar");
 				}
 			}
 		}
