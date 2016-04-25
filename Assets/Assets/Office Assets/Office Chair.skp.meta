@@ -1,0 +1,336 @@
+fileFormatVersion: 2
+guid: 25a9e919f1d0b48a18adc60357f819d7
+timeCreated: 1461607926
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f0000006000000061000000620000006300000064000000650000006600000067000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 67596664afefc11d7d3cce2dbc03c08f
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 0.957991, y: 1.052835, z: -1.7860448}
+      lookAt: {x: 0.18762028, y: 0.5336481, z: -0.26492527}
+      up: {x: -0.13160832, y: 0.9566346, z: 0.25986448}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes:
+    - camera:
+        position: {x: -0.7175987, y: 0.8790311, z: -1.5856979}
+        lookAt: {x: 0.0048352643, y: 0.42518723, z: -0.020786915}
+        up: {x: 0.10672514, y: 0.9670386, z: 0.23118424}
+        fov: 35
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: Scene 1
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Box001
+    100002: Box001 1
+    100004: Box002
+    100006: Box002 1
+    100008: Box003
+    100010: Box003 1
+    100012: Box004
+    100014: Box005
+    100016: Box006
+    100018: Box007
+    100020: Cylin10
+    100022: Cylin5
+    100024: Cylin7
+    100026: Cylin9
+    100028: Cylin9 1
+    100030: Group 11
+    100032: Group 13
+    100034: Group 30
+    100036: Group 37
+    100038: Group 44
+    100040: Group 51
+    100042: Group 58
+    100044: Group#1
+    100046: Group#1 1
+    100048: Group#6
+    100050: Group#6 1
+    100052: Group#64
+    100054: Group#64 1
+    100056: Group#64 2
+    100058: Group#64 3
+    100060: Group#64 4
+    100062: Group#64 5
+    100064: Group#64 6
+    100066: Group#64 7
+    100068: Group#64 8
+    100070: Group#64 9
+    100072: Group#69
+    100074: Group#69 1
+    100076: Group#69 2
+    100078: Group#69 3
+    100080: Group#69 4
+    100082: Group023
+    100084: Group024
+    100086: Group1
+    100088: Group10
+    100090: Group16
+    100092: Group19
+    100094: Group2
+    100096: Group9
+    100098: Object001
+    100100: Object001 1
+    100102: Object003
+    100104: Object003 1
+    100106: Object004
+    100108: Object005
+    100110: //RootNode
+    400000: Box001
+    400002: Box001 1
+    400004: Box002
+    400006: Box002 1
+    400008: Box003
+    400010: Box003 1
+    400012: Box004
+    400014: Box005
+    400016: Box006
+    400018: Box007
+    400020: Cylin10
+    400022: Cylin5
+    400024: Cylin7
+    400026: Cylin9
+    400028: Cylin9 1
+    400030: Group 11
+    400032: Group 13
+    400034: Group 30
+    400036: Group 37
+    400038: Group 44
+    400040: Group 51
+    400042: Group 58
+    400044: Group#1
+    400046: Group#1 1
+    400048: Group#6
+    400050: Group#6 1
+    400052: Group#64
+    400054: Group#64 1
+    400056: Group#64 2
+    400058: Group#64 3
+    400060: Group#64 4
+    400062: Group#64 5
+    400064: Group#64 6
+    400066: Group#64 7
+    400068: Group#64 8
+    400070: Group#64 9
+    400072: Group#69
+    400074: Group#69 1
+    400076: Group#69 2
+    400078: Group#69 3
+    400080: Group#69 4
+    400082: Group023
+    400084: Group024
+    400086: Group1
+    400088: Group10
+    400090: Group16
+    400092: Group19
+    400094: Group2
+    400096: Group9
+    400098: Object001
+    400100: Object001 1
+    400102: Object003
+    400104: Object003 1
+    400106: Object004
+    400108: Object005
+    400110: //RootNode
+    2300000: Box001
+    2300002: Box001 1
+    2300004: Box002
+    2300006: Box002 1
+    2300008: Box003
+    2300010: Box003 1
+    2300012: Box004
+    2300014: Box005
+    2300016: Box006
+    2300018: Box007
+    2300020: Cylin10
+    2300022: Cylin5
+    2300024: Cylin7
+    2300026: Cylin9
+    2300028: Cylin9 1
+    2300030: Group 11
+    2300032: Group 13
+    2300034: Group 30
+    2300036: Group 37
+    2300038: Group 44
+    2300040: Group 51
+    2300042: Group 58
+    2300044: Group#6
+    2300046: Group#6 1
+    2300048: Group#64
+    2300050: Group#64 1
+    2300052: Group#64 2
+    2300054: Group#64 3
+    2300056: Group#64 4
+    2300058: Group#64 5
+    2300060: Group#64 6
+    2300062: Group#64 7
+    2300064: Group#64 8
+    2300066: Group#64 9
+    2300068: Group023
+    2300070: Group024
+    2300072: Group1
+    2300074: Group10
+    2300076: Group16
+    2300078: Group19
+    2300080: Group2
+    2300082: Group9
+    2300084: Object001
+    2300086: Object001 1
+    2300088: Object003
+    2300090: Object003 1
+    2300092: Object004
+    2300094: Object005
+    3300000: Box001
+    3300002: Box001 1
+    3300004: Box002
+    3300006: Box002 1
+    3300008: Box003
+    3300010: Box003 1
+    3300012: Box004
+    3300014: Box005
+    3300016: Box006
+    3300018: Box007
+    3300020: Cylin10
+    3300022: Cylin5
+    3300024: Cylin7
+    3300026: Cylin9
+    3300028: Cylin9 1
+    3300030: Group 11
+    3300032: Group 13
+    3300034: Group 30
+    3300036: Group 37
+    3300038: Group 44
+    3300040: Group 51
+    3300042: Group 58
+    3300044: Group#6
+    3300046: Group#6 1
+    3300048: Group#64
+    3300050: Group#64 1
+    3300052: Group#64 2
+    3300054: Group#64 3
+    3300056: Group#64 4
+    3300058: Group#64 5
+    3300060: Group#64 6
+    3300062: Group#64 7
+    3300064: Group#64 8
+    3300066: Group#64 9
+    3300068: Group023
+    3300070: Group024
+    3300072: Group1
+    3300074: Group10
+    3300076: Group16
+    3300078: Group19
+    3300080: Group2
+    3300082: Group9
+    3300084: Object001
+    3300086: Object001 1
+    3300088: Object003
+    3300090: Object003 1
+    3300092: Object004
+    3300094: Object005
+    4300000: Mesh Box004
+    4300002: Mesh Box007
+    4300004: Mesh Cylin7
+    4300006: Mesh Cylin10
+    4300008: Mesh Cylin5
+    4300010: Mesh Group 11
+    4300012: Mesh Group 13
+    4300014: Mesh Object005
+    4300016: Mesh Box006
+    4300018: Mesh Object004
+    4300020: Mesh Group023
+    4300022: Mesh Box005
+    4300024: Mesh Group9
+    4300026: Mesh Group024
+    4300028: Mesh Group 30
+    4300030: Mesh Group#64
+    4300032: Mesh Group1
+    4300034: Mesh Group10
+    4300036: Mesh Group16
+    4300038: Mesh Group19
+    4300040: Mesh Group2
+    4300042: Mesh Group#6
+    4300044: Mesh Box001
+    4300046: Mesh Cylin9
+    4300048: Mesh Box003
+    4300050: Mesh Object003
+    4300052: Mesh Object001
+    4300054: Mesh Box002
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

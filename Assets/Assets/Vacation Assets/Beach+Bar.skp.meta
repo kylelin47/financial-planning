@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: 1a6bbbd8a9df242e9a96382a7d4e97b1
+timeCreated: 1461616138
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000ce000000cf000000d0000000d1000000d2000000d3000000d4000000d5000000d6000000d7000000d8000000d9000000da000000db000000dc000000dd000000de000000df000000e0000000e1000000e2000000e3000000e4000000e5000000e6000000e7000000e8000000e9000000ea000000eb000000ec000000ed000000ee000000ef000000f0000000f1000000f2000000f3000000f4000000f5000000f6000000f7000000f8000000f9000000fa000000fb000000fc000000fd000000fe000000ff000000000100000101000002010000030100000401000005010000060100000701000008010000090100000a0100000b0100000c0100000d0100000e0100000f010000100100001101000012010000130100001401000015010000160100001701000018010000190100001a0100001b0100001c0100001d0100001e0100001f010000200100002101000022010000230100002401000025010000260100002701000028010000290100002a0100002b0100002c0100002d0100002e0100002f010000300100003101000032010000330100003401000035010000360100003701000038010000390100003a0100003b0100003c0100003d0100003e0100003f010000400100004101000042010000430100004401000045010000460100004701000048010000490100004a0100004b0100004c0100004d0100004e0100004f010000500100005101000052010000530100005401000055010000560100005701000058010000590100005a0100005b0100005c0100005d0100005e0100005f010000600100006101000062010000630100006401000065010000660100006701000068010000690100006a0100006b0100006c0100006d0100006e0100006f010000700100007101000072010000730100007401000075010000760100007701000078010000790100007a0100007b0100007c0100007d0100007e0100007f010000800100008101000082010000830100008401000085010000860100008701000088010000890100008a0100008b0100008c0100008d0100008e0100008f010000900100009101000092010000930100009401000095010000960100009701000098010000990100009a0100009b0100009c0100009d0100009e0100009f010000a0010000a1010000a2010000a3010000a4010000a5010000a6010000a7010000a8010000a9010000aa010000ab010000ac010000ad010000ae010000af010000b0010000b1010000b2010000b3010000b4010000b5010000b6010000b7010000b8010000b9010000ba010000bb010000bc010000bd010000be010000bf010000c0010000c1010000c2010000c3010000c4010000c5010000c6010000c7010000c8010000c9010000ca010000cb010000cc010000cd010000ce010000cf010000d0010000d1010000d2010000d3010000d4010000d5010000d6010000d7010000d8010000d9010000da010000db010000dc010000dd010000de010000df010000e0010000e1010000e2010000e3010000e4010000e5010000e6010000e7010000e8010000e9010000ea010000eb010000ec010000ed010000ee010000ef010000f0010000f1010000f2010000f3010000f4010000f5010000f6010000f7010000f8010000f9010000fa010000fb010000
+  assetHash:
+    serializedVersion: 2
+    Hash: 21fe1c3af1667164c3059274ed36ff0c
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 97.18311, y: 11.54219, z: 3.793841}
+      lookAt: {x: -22653.492, y: -6722.9355, z: 9777.598}
+      up: {x: -0.24113269, y: 0.9649475, z: 0.10359181}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 3D Man 6 by J+J
+    100002: 3D Man 9 by J+J
+    100004: 3D Woman 11 by J+J
+    100006: 3D Woman 12 by J+J
+    100008: //RootNode
+    100010: button
+    100012: button 1
+    100014: button 2
+    100016: button 3
+    100018: button 4
+    100020: Carlie
+    100022: Chair
+    100024: Chair 1
+    100026: Chair 10
+    100028: Chair 11
+    100030: Chair 12
+    100032: Chair 13
+    100034: Chair 14
+    100036: Chair 15
+    100038: Chair 16
+    100040: Chair 17
+    100042: Chair 18
+    100044: Chair 19
+    100046: Chair 2
+    100048: Chair 20
+    100050: Chair 21
+    100052: Chair 22
+    100054: Chair 23
+    100056: Chair 24
+    100058: Chair 25
+    100060: Chair 26
+    100062: Chair 27
+    100064: Chair 28
+    100066: Chair 29
+    100068: Chair 3
+    100070: Chair 30
+    100072: Chair 31
+    100074: Chair 4
+    100076: Chair 5
+    100078: Chair 6
+    100080: Chair 7
+    100082: Chair 8
+    100084: Chair 9
+    100086: Component#1
+    100088: Component#1 1
+    100090: Component#1 2
+    100092: Component#1 3
+    100094: Component#17
+    100096: Darin
+    100098: Flatscreen 42 inch TV
+    100100: Francis
+    100102: Group 435
+    100104: Group 437
+    100106: Group 439
+    100108: Group 442
+    100110: Group 442_MeshPart0
+    100112: Group 442_MeshPart1
+    100114: Group 444
+    100116: Group 446
+    100118: Group 452
+    100120: Group 454
+    100122: Group 456
+    100124: Group 457
+    100126: Group 459
+    100128: Group 460
+    100130: Group 462
+    100132: Group 463
+    100134: Group 465
+    100136: Group 467
+    100138: Group 469
+    100140: Group 471
+    100142: Group 475
+    100144: Group 477
+    100146: Group 479
+    100148: Group 481
+    100150: Group 483
+    100152: Group 485
+    100154: Group 487
+    100156: Group 489
+    100158: Group 491
+    100160: Group 493
+    100162: Group 497
+    100164: Group 499
+    100166: Group 502
+    100168: Ian McClean
+    100170: Leg
+    100172: Leg 1
+    100174: Leg 10
+    100176: Leg 11
+    100178: Leg 12
+    100180: Leg 13
+    100182: Leg 14
+    100184: Leg 15
+    100186: Leg 16
+    100188: Leg 17
+    100190: Leg 18
+    100192: Leg 19
+    100194: Leg 2
+    100196: Leg 20
+    100198: Leg 21
+    100200: Leg 22
+    100202: Leg 23
+    100204: Leg 24
+    100206: Leg 25
+    100208: Leg 26
+    100210: Leg 27
+    100212: Leg 28
+    100214: Leg 29
+    100216: Leg 3
+    100218: Leg 30
+    100220: Leg 31
+    100222: Leg 4
+    100224: Leg 5
+    100226: Leg 6
+    100228: Leg 7
+    100230: Leg 8
+    100232: Leg 9
+    100234: Panel Door
+    100236: Panel Door 1
+    100238: Panel Door 2
+    100240: Side
+    100242: Side 1
+    100244: Side 10
+    100246: Side 11
+    100248: Side 12
+    100250: Side 13
+    100252: Side 14
+    100254: Side 15
+    100256: Side 16
+    100258: Side 17
+    100260: Side 18
+    100262: Side 19
+    100264: Side 2
+    100266: Side 20
+    100268: Side 21
+    100270: Side 22
+    100272: Side 23
+    100274: Side 24
+    100276: Side 25
+    100278: Side 26
+    100280: Side 27
+    100282: Side 28
+    100284: Side 29
+    100286: Side 3
+    100288: Side 30
+    100290: Side 31
+    100292: Side 32
+    100294: Side 33
+    100296: Side 34
+    100298: Side 35
+    100300: Side 36
+    100302: Side 37
+    100304: Side 38
+    100306: Side 39
+    100308: Side 4
+    100310: Side 40
+    100312: Side 41
+    100314: Side 42
+    100316: Side 43
+    100318: Side 44
+    100320: Side 45
+    100322: Side 46
+    100324: Side 47
+    100326: Side 48
+    100328: Side 49
+    100330: Side 5
+    100332: Side 50
+    100334: Side 51
+    100336: Side 52
+    100338: Side 53
+    100340: Side 54
+    100342: Side 55
+    100344: Side 56
+    100346: Side 57
+    100348: Side 58
+    100350: Side 59
+    100352: Side 6
+    100354: Side 60
+    100356: Side 61
+    100358: Side 62
+    100360: Side 63
+    100362: Side 7
+    100364: Side 8
+    100366: Side 9
+    100368: skp2CD9
+    100370: skp3900
+    100372: skp7F46
+    100374: Slider window 39.75 in. x 23 in. with mullions
+    100376: Slider window 39.75 in. x 23 in. with mullions 1
+    100378: Slider window 48 in. x 48 in.
+    100380: Teak table set
+    100382: Teak table set 1
+    100384: Teak table set 2
+    100386: Teak table set 3
+    100388: Teak table set 4
+    100390: Teak table set 5
+    100392: Teak table set 6
+    100394: Teak table set 7
+    100396: Wood Support
+    100398: Wood Support 1
+    100400: Wood Support 10
+    100402: Wood Support 11
+    100404: Wood Support 12
+    100406: Wood Support 13
+    100408: Wood Support 14
+    100410: Wood Support 15
+    100412: Wood Support 16
+    100414: Wood Support 17
+    100416: Wood Support 18
+    100418: Wood Support 19
+    100420: Wood Support 2
+    100422: Wood Support 20
+    100424: Wood Support 21
+    100426: Wood Support 22
+    100428: Wood Support 23
+    100430: Wood Support 24
+    100432: Wood Support 25
+    100434: Wood Support 26
+    100436: Wood Support 27
+    100438: Wood Support 28
+    100440: Wood Support 29
+    100442: Wood Support 3
+    100444: Wood Support 30
+    100446: Wood Support 31
+    100448: Wood Support 32
+    100450: Wood Support 33
+    100452: Wood Support 34
+    100454: Wood Support 35
+    100456: Wood Support 36
+    100458: Wood Support 37
+    100460: Wood Support 38
+    100462: Wood Support 39
+    100464: Wood Support 4
+    100466: Wood Support 40
+    100468: Wood Support 41
+    100470: Wood Support 42
+    100472: Wood Support 43
+    100474: Wood Support 44
+    100476: Wood Support 45
+    100478: Wood Support 46
+    100480: Wood Support 47
+    100482: Wood Support 48
+    100484: Wood Support 49
+    100486: Wood Support 5
+    100488: Wood Support 50
+    100490: Wood Support 51
+    100492: Wood Support 52
+    100494: Wood Support 53
+    100496: Wood Support 54
+    100498: Wood Support 55
+    100500: Wood Support 56
+    100502: Wood Support 57
+    100504: Wood Support 58
+    100506: Wood Support 59
+    100508: Wood Support 6
+    100510: Wood Support 60
+    100512: Wood Support 61
+    100514: Wood Support 62
+    100516: Wood Support 63
+    100518: Wood Support 7
+    100520: Wood Support 8
+    100522: Wood Support 9
+    400000: 3D Man 6 by J+J
+    400002: 3D Man 9 by J+J
+    400004: 3D Woman 11 by J+J
+    400006: 3D Woman 12 by J+J
+    400008: //RootNode
+    400010: button
+    400012: button 1
+    400014: button 2
+    400016: button 3
+    400018: button 4
+    400020: Carlie
+    400022: Chair
+    400024: Chair 1
+    400026: Chair 10
+    400028: Chair 11
+    400030: Chair 12
+    400032: Chair 13
+    400034: Chair 14
+    400036: Chair 15
+    400038: Chair 16
+    400040: Chair 17
+    400042: Chair 18
+    400044: Chair 19
+    400046: Chair 2
+    400048: Chair 20
+    400050: Chair 21
+    400052: Chair 22
+    400054: Chair 23
+    400056: Chair 24
+    400058: Chair 25
+    400060: Chair 26
+    400062: Chair 27
+    400064: Chair 28
+    400066: Chair 29
+    400068: Chair 3
+    400070: Chair 30
+    400072: Chair 31
+    400074: Chair 4
+    400076: Chair 5
+    400078: Chair 6
+    400080: Chair 7
+    400082: Chair 8
+    400084: Chair 9
+    400086: Component#1
+    400088: Component#1 1
+    400090: Component#1 2
+    400092: Component#1 3
+    400094: Component#17
+    400096: Darin
+    400098: Flatscreen 42 inch TV
+    400100: Francis
+    400102: Group 435
+    400104: Group 437
+    400106: Group 439
+    400108: Group 442
+    400110: Group 442_MeshPart0
+    400112: Group 442_MeshPart1
+    400114: Group 444
+    400116: Group 446
+    400118: Group 452
+    400120: Group 454
+    400122: Group 456
+    400124: Group 457
+    400126: Group 459
+    400128: Group 460
+    400130: Group 462
+    400132: Group 463
+    400134: Group 465
+    400136: Group 467
+    400138: Group 469
+    400140: Group 471
+    400142: Group 475
+    400144: Group 477
+    400146: Group 479
+    400148: Group 481
+    400150: Group 483
+    400152: Group 485
+    400154: Group 487
+    400156: Group 489
+    400158: Group 491
+    400160: Group 493
+    400162: Group 497
+    400164: Group 499
+    400166: Group 502
+    400168: Ian McClean
+    400170: Leg
+    400172: Leg 1
+    400174: Leg 10
+    400176: Leg 11
+    400178: Leg 12
+    400180: Leg 13
+    400182: Leg 14
+    400184: Leg 15
+    400186: Leg 16
+    400188: Leg 17
+    400190: Leg 18
+    400192: Leg 19
+    400194: Leg 2
+    400196: Leg 20
+    400198: Leg 21
+    400200: Leg 22
+    400202: Leg 23
+    400204: Leg 24
+    400206: Leg 25
+    400208: Leg 26
+    400210: Leg 27
+    400212: Leg 28
+    400214: Leg 29
+    400216: Leg 3
+    400218: Leg 30
+    400220: Leg 31
+    400222: Leg 4
+    400224: Leg 5
+    400226: Leg 6
+    400228: Leg 7
+    400230: Leg 8
+    400232: Leg 9
+    400234: Panel Door
+    400236: Panel Door 1
+    400238: Panel Door 2
+    400240: Side
+    400242: Side 1
+    400244: Side 10
+    400246: Side 11
+    400248: Side 12
+    400250: Side 13
+    400252: Side 14
+    400254: Side 15
+    400256: Side 16
+    400258: Side 17
+    400260: Side 18
+    400262: Side 19
+    400264: Side 2
+    400266: Side 20
+    400268: Side 21
+    400270: Side 22
+    400272: Side 23
+    400274: Side 24
+    400276: Side 25
+    400278: Side 26
+    400280: Side 27
+    400282: Side 28
+    400284: Side 29
+    400286: Side 3
+    400288: Side 30
+    400290: Side 31
+    400292: Side 32
+    400294: Side 33
+    400296: Side 34
+    400298: Side 35
+    400300: Side 36
+    400302: Side 37
+    400304: Side 38
+    400306: Side 39
+    400308: Side 4
+    400310: Side 40
+    400312: Side 41
+    400314: Side 42
+    400316: Side 43
+    400318: Side 44
+    400320: Side 45
+    400322: Side 46
+    400324: Side 47
+    400326: Side 48
+    400328: Side 49
+    400330: Side 5
+    400332: Side 50
+    400334: Side 51
+    400336: Side 52
+    400338: Side 53
+    400340: Side 54
+    400342: Side 55
+    400344: Side 56
+    400346: Side 57
+    400348: Side 58
+    400350: Side 59
+    400352: Side 6
+    400354: Side 60
+    400356: Side 61
+    400358: Side 62
+    400360: Side 63
+    400362: Side 7
+    400364: Side 8
+    400366: Side 9
+    400368: skp2CD9
+    400370: skp3900
+    400372: skp7F46
+    400374: Slider window 39.75 in. x 23 in. with mullions
+    400376: Slider window 39.75 in. x 23 in. with mullions 1
+    400378: Slider window 48 in. x 48 in.
+    400380: Teak table set
+    400382: Teak table set 1
+    400384: Teak table set 2
+    400386: Teak table set 3
+    400388: Teak table set 4
+    400390: Teak table set 5
+    400392: Teak table set 6
+    400394: Teak table set 7
+    400396: Wood Support
+    400398: Wood Support 1
+    400400: Wood Support 10
+    400402: Wood Support 11
+    400404: Wood Support 12
+    400406: Wood Support 13
+    400408: Wood Support 14
+    400410: Wood Support 15
+    400412: Wood Support 16
+    400414: Wood Support 17
+    400416: Wood Support 18
+    400418: Wood Support 19
+    400420: Wood Support 2
+    400422: Wood Support 20
+    400424: Wood Support 21
+    400426: Wood Support 22
+    400428: Wood Support 23
+    400430: Wood Support 24
+    400432: Wood Support 25
+    400434: Wood Support 26
+    400436: Wood Support 27
+    400438: Wood Support 28
+    400440: Wood Support 29
+    400442: Wood Support 3
+    400444: Wood Support 30
+    400446: Wood Support 31
+    400448: Wood Support 32
+    400450: Wood Support 33
+    400452: Wood Support 34
+    400454: Wood Support 35
+    400456: Wood Support 36
+    400458: Wood Support 37
+    400460: Wood Support 38
+    400462: Wood Support 39
+    400464: Wood Support 4
+    400466: Wood Support 40
+    400468: Wood Support 41
+    400470: Wood Support 42
+    400472: Wood Support 43
+    400474: Wood Support 44
+    400476: Wood Support 45
+    400478: Wood Support 46
+    400480: Wood Support 47
+    400482: Wood Support 48
+    400484: Wood Support 49
+    400486: Wood Support 5
+    400488: Wood Support 50
+    400490: Wood Support 51
+    400492: Wood Support 52
+    400494: Wood Support 53
+    400496: Wood Support 54
+    400498: Wood Support 55
+    400500: Wood Support 56
+    400502: Wood Support 57
+    400504: Wood Support 58
+    400506: Wood Support 59
+    400508: Wood Support 6
+    400510: Wood Support 60
+    400512: Wood Support 61
+    400514: Wood Support 62
+    400516: Wood Support 63
+    400518: Wood Support 7
+    400520: Wood Support 8
+    400522: Wood Support 9
+    2300000: //RootNode
+    2300002: button
+    2300004: button 1
+    2300006: button 2
+    2300008: button 3
+    2300010: button 4
+    2300012: Chair
+    2300014: Chair 1
+    2300016: Chair 10
+    2300018: Chair 11
+    2300020: Chair 12
+    2300022: Chair 13
+    2300024: Chair 14
+    2300026: Chair 15
+    2300028: Chair 16
+    2300030: Chair 17
+    2300032: Chair 18
+    2300034: Chair 19
+    2300036: Chair 2
+    2300038: Chair 20
+    2300040: Chair 21
+    2300042: Chair 22
+    2300044: Chair 23
+    2300046: Chair 24
+    2300048: Chair 25
+    2300050: Chair 26
+    2300052: Chair 27
+    2300054: Chair 28
+    2300056: Chair 29
+    2300058: Chair 3
+    2300060: Chair 30
+    2300062: Chair 31
+    2300064: Chair 4
+    2300066: Chair 5
+    2300068: Chair 6
+    2300070: Chair 7
+    2300072: Chair 8
+    2300074: Chair 9
+    2300076: Component#1
+    2300078: Component#1 1
+    2300080: Component#1 2
+    2300082: Component#1 3
+    2300084: Component#17
+    2300086: Flatscreen 42 inch TV
+    2300088: Group 435
+    2300090: Group 437
+    2300092: Group 439
+    2300094: Group 442_MeshPart0
+    2300096: Group 442_MeshPart1
+    2300098: Group 444
+    2300100: Group 446
+    2300102: Group 452
+    2300104: Group 454
+    2300106: Group 457
+    2300108: Group 460
+    2300110: Group 463
+    2300112: Group 465
+    2300114: Group 467
+    2300116: Group 469
+    2300118: Group 471
+    2300120: Group 475
+    2300122: Group 477
+    2300124: Group 479
+    2300126: Group 481
+    2300128: Group 483
+    2300130: Group 485
+    2300132: Group 487
+    2300134: Group 489
+    2300136: Group 491
+    2300138: Group 493
+    2300140: Group 497
+    2300142: Group 499
+    2300144: Group 502
+    2300146: Leg
+    2300148: Leg 1
+    2300150: Leg 10
+    2300152: Leg 11
+    2300154: Leg 12
+    2300156: Leg 13
+    2300158: Leg 14
+    2300160: Leg 15
+    2300162: Leg 16
+    2300164: Leg 17
+    2300166: Leg 18
+    2300168: Leg 19
+    2300170: Leg 2
+    2300172: Leg 20
+    2300174: Leg 21
+    2300176: Leg 22
+    2300178: Leg 23
+    2300180: Leg 24
+    2300182: Leg 25
+    2300184: Leg 26
+    2300186: Leg 27
+    2300188: Leg 28
+    2300190: Leg 29
+    2300192: Leg 3
+    2300194: Leg 30
+    2300196: Leg 31
+    2300198: Leg 4
+    2300200: Leg 5
+    2300202: Leg 6
+    2300204: Leg 7
+    2300206: Leg 8
+    2300208: Leg 9
+    2300210: Panel Door
+    2300212: Panel Door 1
+    2300214: Panel Door 2
+    2300216: Side
+    2300218: Side 1
+    2300220: Side 10
+    2300222: Side 11
+    2300224: Side 12
+    2300226: Side 13
+    2300228: Side 14
+    2300230: Side 15
+    2300232: Side 16
+    2300234: Side 17
+    2300236: Side 18
+    2300238: Side 19
+    2300240: Side 2
+    2300242: Side 20
+    2300244: Side 21
+    2300246: Side 22
+    2300248: Side 23
+    2300250: Side 24
+    2300252: Side 25
+    2300254: Side 26
+    2300256: Side 27
+    2300258: Side 28
+    2300260: Side 29
+    2300262: Side 3
+    2300264: Side 30
+    2300266: Side 31
+    2300268: Side 32
+    2300270: Side 33
+    2300272: Side 34
+    2300274: Side 35
+    2300276: Side 36
+    2300278: Side 37
+    2300280: Side 38
+    2300282: Side 39
+    2300284: Side 4
+    2300286: Side 40
+    2300288: Side 41
+    2300290: Side 42
+    2300292: Side 43
+    2300294: Side 44
+    2300296: Side 45
+    2300298: Side 46
+    2300300: Side 47
+    2300302: Side 48
+    2300304: Side 49
+    2300306: Side 5
+    2300308: Side 50
+    2300310: Side 51
+    2300312: Side 52
+    2300314: Side 53
+    2300316: Side 54
+    2300318: Side 55
+    2300320: Side 56
+    2300322: Side 57
+    2300324: Side 58
+    2300326: Side 59
+    2300328: Side 6
+    2300330: Side 60
+    2300332: Side 61
+    2300334: Side 62
+    2300336: Side 63
+    2300338: Side 7
+    2300340: Side 8
+    2300342: Side 9
+    2300344: skp2CD9
+    2300346: skp7F46
+    2300348: Slider window 39.75 in. x 23 in. with mullions
+    2300350: Slider window 39.75 in. x 23 in. with mullions 1
+    2300352: Slider window 48 in. x 48 in.
+    2300354: Teak table set
+    2300356: Teak table set 1
+    2300358: Teak table set 2
+    2300360: Teak table set 3
+    2300362: Teak table set 4
+    2300364: Teak table set 5
+    2300366: Teak table set 6
+    2300368: Teak table set 7
+    2300370: Wood Support
+    2300372: Wood Support 1
+    2300374: Wood Support 10
+    2300376: Wood Support 11
+    2300378: Wood Support 12
+    2300380: Wood Support 13
+    2300382: Wood Support 14
+    2300384: Wood Support 15
+    2300386: Wood Support 16
+    2300388: Wood Support 17
+    2300390: Wood Support 18
+    2300392: Wood Support 19
+    2300394: Wood Support 2
+    2300396: Wood Support 20
+    2300398: Wood Support 21
+    2300400: Wood Support 22
+    2300402: Wood Support 23
+    2300404: Wood Support 24
+    2300406: Wood Support 25
+    2300408: Wood Support 26
+    2300410: Wood Support 27
+    2300412: Wood Support 28
+    2300414: Wood Support 29
+    2300416: Wood Support 3
+    2300418: Wood Support 30
+    2300420: Wood Support 31
+    2300422: Wood Support 32
+    2300424: Wood Support 33
+    2300426: Wood Support 34
+    2300428: Wood Support 35
+    2300430: Wood Support 36
+    2300432: Wood Support 37
+    2300434: Wood Support 38
+    2300436: Wood Support 39
+    2300438: Wood Support 4
+    2300440: Wood Support 40
+    2300442: Wood Support 41
+    2300444: Wood Support 42
+    2300446: Wood Support 43
+    2300448: Wood Support 44
+    2300450: Wood Support 45
+    2300452: Wood Support 46
+    2300454: Wood Support 47
+    2300456: Wood Support 48
+    2300458: Wood Support 49
+    2300460: Wood Support 5
+    2300462: Wood Support 50
+    2300464: Wood Support 51
+    2300466: Wood Support 52
+    2300468: Wood Support 53
+    2300470: Wood Support 54
+    2300472: Wood Support 55
+    2300474: Wood Support 56
+    2300476: Wood Support 57
+    2300478: Wood Support 58
+    2300480: Wood Support 59
+    2300482: Wood Support 6
+    2300484: Wood Support 60
+    2300486: Wood Support 61
+    2300488: Wood Support 62
+    2300490: Wood Support 63
+    2300492: Wood Support 7
+    2300494: Wood Support 8
+    2300496: Wood Support 9
+    3300000: //RootNode
+    3300002: button
+    3300004: button 1
+    3300006: button 2
+    3300008: button 3
+    3300010: button 4
+    3300012: Chair
+    3300014: Chair 1
+    3300016: Chair 10
+    3300018: Chair 11
+    3300020: Chair 12
+    3300022: Chair 13
+    3300024: Chair 14
+    3300026: Chair 15
+    3300028: Chair 16
+    3300030: Chair 17
+    3300032: Chair 18
+    3300034: Chair 19
+    3300036: Chair 2
+    3300038: Chair 20
+    3300040: Chair 21
+    3300042: Chair 22
+    3300044: Chair 23
+    3300046: Chair 24
+    3300048: Chair 25
+    3300050: Chair 26
+    3300052: Chair 27
+    3300054: Chair 28
+    3300056: Chair 29
+    3300058: Chair 3
+    3300060: Chair 30
+    3300062: Chair 31
+    3300064: Chair 4
+    3300066: Chair 5
+    3300068: Chair 6
+    3300070: Chair 7
+    3300072: Chair 8
+    3300074: Chair 9
+    3300076: Component#1
+    3300078: Component#1 1
+    3300080: Component#1 2
+    3300082: Component#1 3
+    3300084: Component#17
+    3300086: Flatscreen 42 inch TV
+    3300088: Group 435
+    3300090: Group 437
+    3300092: Group 439
+    3300094: Group 442_MeshPart0
+    3300096: Group 442_MeshPart1
+    3300098: Group 444
+    3300100: Group 446
+    3300102: Group 452
+    3300104: Group 454
+    3300106: Group 457
+    3300108: Group 460
+    3300110: Group 463
+    3300112: Group 465
+    3300114: Group 467
+    3300116: Group 469
+    3300118: Group 471
+    3300120: Group 475
+    3300122: Group 477
+    3300124: Group 479
+    3300126: Group 481
+    3300128: Group 483
+    3300130: Group 485
+    3300132: Group 487
+    3300134: Group 489
+    3300136: Group 491
+    3300138: Group 493
+    3300140: Group 497
+    3300142: Group 499
+    3300144: Group 502
+    3300146: Leg
+    3300148: Leg 1
+    3300150: Leg 10
+    3300152: Leg 11
+    3300154: Leg 12
+    3300156: Leg 13
+    3300158: Leg 14
+    3300160: Leg 15
+    3300162: Leg 16
+    3300164: Leg 17
+    3300166: Leg 18
+    3300168: Leg 19
+    3300170: Leg 2
+    3300172: Leg 20
+    3300174: Leg 21
+    3300176: Leg 22
+    3300178: Leg 23
+    3300180: Leg 24
+    3300182: Leg 25
+    3300184: Leg 26
+    3300186: Leg 27
+    3300188: Leg 28
+    3300190: Leg 29
+    3300192: Leg 3
+    3300194: Leg 30
+    3300196: Leg 31
+    3300198: Leg 4
+    3300200: Leg 5
+    3300202: Leg 6
+    3300204: Leg 7
+    3300206: Leg 8
+    3300208: Leg 9
+    3300210: Panel Door
+    3300212: Panel Door 1
+    3300214: Panel Door 2
+    3300216: Side
+    3300218: Side 1
+    3300220: Side 10
+    3300222: Side 11
+    3300224: Side 12
+    3300226: Side 13
+    3300228: Side 14
+    3300230: Side 15
+    3300232: Side 16
+    3300234: Side 17
+    3300236: Side 18
+    3300238: Side 19
+    3300240: Side 2
+    3300242: Side 20
+    3300244: Side 21
+    3300246: Side 22
+    3300248: Side 23
+    3300250: Side 24
+    3300252: Side 25
+    3300254: Side 26
+    3300256: Side 27
+    3300258: Side 28
+    3300260: Side 29
+    3300262: Side 3
+    3300264: Side 30
+    3300266: Side 31
+    3300268: Side 32
+    3300270: Side 33
+    3300272: Side 34
+    3300274: Side 35
+    3300276: Side 36
+    3300278: Side 37
+    3300280: Side 38
+    3300282: Side 39
+    3300284: Side 4
+    3300286: Side 40
+    3300288: Side 41
+    3300290: Side 42
+    3300292: Side 43
+    3300294: Side 44
+    3300296: Side 45
+    3300298: Side 46
+    3300300: Side 47
+    3300302: Side 48
+    3300304: Side 49
+    3300306: Side 5
+    3300308: Side 50
+    3300310: Side 51
+    3300312: Side 52
+    3300314: Side 53
+    3300316: Side 54
+    3300318: Side 55
+    3300320: Side 56
+    3300322: Side 57
+    3300324: Side 58
+    3300326: Side 59
+    3300328: Side 6
+    3300330: Side 60
+    3300332: Side 61
+    3300334: Side 62
+    3300336: Side 63
+    3300338: Side 7
+    3300340: Side 8
+    3300342: Side 9
+    3300344: skp2CD9
+    3300346: skp7F46
+    3300348: Slider window 39.75 in. x 23 in. with mullions
+    3300350: Slider window 39.75 in. x 23 in. with mullions 1
+    3300352: Slider window 48 in. x 48 in.
+    3300354: Teak table set
+    3300356: Teak table set 1
+    3300358: Teak table set 2
+    3300360: Teak table set 3
+    3300362: Teak table set 4
+    3300364: Teak table set 5
+    3300366: Teak table set 6
+    3300368: Teak table set 7
+    3300370: Wood Support
+    3300372: Wood Support 1
+    3300374: Wood Support 10
+    3300376: Wood Support 11
+    3300378: Wood Support 12
+    3300380: Wood Support 13
+    3300382: Wood Support 14
+    3300384: Wood Support 15
+    3300386: Wood Support 16
+    3300388: Wood Support 17
+    3300390: Wood Support 18
+    3300392: Wood Support 19
+    3300394: Wood Support 2
+    3300396: Wood Support 20
+    3300398: Wood Support 21
+    3300400: Wood Support 22
+    3300402: Wood Support 23
+    3300404: Wood Support 24
+    3300406: Wood Support 25
+    3300408: Wood Support 26
+    3300410: Wood Support 27
+    3300412: Wood Support 28
+    3300414: Wood Support 29
+    3300416: Wood Support 3
+    3300418: Wood Support 30
+    3300420: Wood Support 31
+    3300422: Wood Support 32
+    3300424: Wood Support 33
+    3300426: Wood Support 34
+    3300428: Wood Support 35
+    3300430: Wood Support 36
+    3300432: Wood Support 37
+    3300434: Wood Support 38
+    3300436: Wood Support 39
+    3300438: Wood Support 4
+    3300440: Wood Support 40
+    3300442: Wood Support 41
+    3300444: Wood Support 42
+    3300446: Wood Support 43
+    3300448: Wood Support 44
+    3300450: Wood Support 45
+    3300452: Wood Support 46
+    3300454: Wood Support 47
+    3300456: Wood Support 48
+    3300458: Wood Support 49
+    3300460: Wood Support 5
+    3300462: Wood Support 50
+    3300464: Wood Support 51
+    3300466: Wood Support 52
+    3300468: Wood Support 53
+    3300470: Wood Support 54
+    3300472: Wood Support 55
+    3300474: Wood Support 56
+    3300476: Wood Support 57
+    3300478: Wood Support 58
+    3300480: Wood Support 59
+    3300482: Wood Support 6
+    3300484: Wood Support 60
+    3300486: Wood Support 61
+    3300488: Wood Support 62
+    3300490: Wood Support 63
+    3300492: Wood Support 7
+    3300494: Wood Support 8
+    3300496: Wood Support 9
+    4300000: Mesh Beach+Bar
+    4300002: Mesh Teak table set
+    4300004: Mesh Leg
+    4300006: Mesh Wood Support
+    4300008: Mesh Chair
+    4300010: Mesh Side
+    4300012: Mesh Panel Door
+    4300014: Mesh Slider window 48 in. x 48 in.
+    4300016: Mesh Slider window 39.75 in. x 23 in. with mullions
+    4300018: Mesh Component#1
+    4300020: Mesh Flatscreen 42 inch TV
+    4300022: Mesh button
+    4300024: Mesh Group 435
+    4300026: Mesh Group 437
+    4300028: Mesh Group 439
+    4300030: Mesh Group 442_MeshPart0
+    4300032: Mesh Group 442_MeshPart1
+    4300034: Mesh Group 444
+    4300036: Mesh Group 446
+    4300038: Mesh Component#17
+    4300040: Mesh Group 452
+    4300042: Mesh Group 454
+    4300044: Mesh Group 457
+    4300046: Mesh Group 460
+    4300048: Mesh Group 463
+    4300050: Mesh Group 465
+    4300052: Mesh Group 467
+    4300054: Mesh Group 469
+    4300056: Mesh Group 471
+    4300058: Mesh Group 475
+    4300060: Mesh Group 477
+    4300062: Mesh Group 479
+    4300064: Mesh Group 481
+    4300066: Mesh Group 483
+    4300068: Mesh Group 485
+    4300070: Mesh Group 487
+    4300072: Mesh Group 489
+    4300074: Mesh Group 491
+    4300076: Mesh Group 493
+    4300078: Mesh Group 497
+    4300080: Mesh Group 499
+    4300082: Mesh Group 502
+    4300084: Mesh skp2CD9
+    4300086: Mesh skp7F46
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
