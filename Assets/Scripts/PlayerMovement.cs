@@ -4,7 +4,9 @@ using System.Collections;
 [RequireComponent(typeof (CharacterController))]
 [RequireComponent(typeof (AudioSource))]
 public class PlayerMovement : MonoBehaviour {
+	private bool canMove;
 	public float speed;
+	public float disabledTime;
 	[SerializeField] private float m_StepInterval;
 	[SerializeField] private AudioClip[] m_FootstepSounds;
 	private CharacterController m_CharacterController;
@@ -13,14 +15,20 @@ public class PlayerMovement : MonoBehaviour {
 	private AudioSource m_AudioSource;
 	private void Start()
 	{
+		Invoke ("AllowMove", disabledTime);
 		m_CharacterController = GetComponent<CharacterController>();
 		m_StepCycle = 0f;
 		m_NextStep = m_StepCycle/2f;
 		m_AudioSource = GetComponent<AudioSource>();
 	}
+	private void AllowMove() {
+		canMove = true;
+	}
 	void Update() // called once per frame
 	{
-		m_CharacterController.SimpleMove(calculateMovementVector());
+		if (canMove) {
+			m_CharacterController.SimpleMove (calculateMovementVector ());
+		}
 	}
 	void FixedUpdate()
 	{
