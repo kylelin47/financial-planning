@@ -7,8 +7,10 @@ public class ChoiceController : MonoBehaviour {
 	public bool choice1;
 	public bool choice2;
 	public string activeScene;
+	public int age;
 	// Use this for initialization
 	void Start () {
+		age = 25;
 		DontDestroyOnLoad (transform.gameObject);
 		activeScene = EditorSceneManager.GetActiveScene ().name;
 		Debug.Log (activeScene);
@@ -29,6 +31,10 @@ public class ChoiceController : MonoBehaviour {
 					choice1 = false;
 					EditorSceneManager.LoadScene ("Kyle - Sportscar");
 				}
+			}
+		} else if (activeScene == "Kyle - Sportscar") {
+			if (age > 30) {
+				Debug.Log ("Move to next scene");
 			}
 		}
 	}
