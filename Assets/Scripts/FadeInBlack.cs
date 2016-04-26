@@ -17,7 +17,7 @@ public class FadeInBlack : MonoBehaviour {
 	void Update () {
 		if (beginFade) {
 			foreach (CanvasRenderer cr in renderers) {
-				cr.SetAlpha(cr.GetAlpha() - 0.1f);
+				cr.SetAlpha(cr.GetAlpha() - 0.05f);
 			}
 		}
 	}
