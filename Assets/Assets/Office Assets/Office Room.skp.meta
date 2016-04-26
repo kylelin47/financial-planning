@@ -1,0 +1,274 @@
+fileFormatVersion: 2
+guid: c87e12f81ce574153b7f4f459568b0ff
+timeCreated: 1461601663
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001200000013000000140000001500000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d000000
+  assetHash:
+    serializedVersion: 2
+    Hash: b16a9556fb9f57ae9e2b58c7051bdf7c
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 0.2237731, y: 1.2140193, z: -2.303676}
+      lookAt: {x: 32.841305, y: -33.01711, z: 146.192}
+      up: {x: 0.047124077, y: 0.97557807, z: 0.2145387}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 1:1
+    100002: 2:1
+    100004: 3:1
+    100006: 3D_Man_Seated
+    100008: 4:1
+    100010: A simple chair and human model.
+    100012: Box01
+    100014: COMPACT
+    100016: Computer
+    100018: D  LL
+    100020: D  LL#1
+    100022: D  LL#1 1
+    100024: Desk
+    100026: DIMENSION 3100
+    100028: disc#1
+    100030: Drawer
+    100032: Drawer 1
+    100034: Drawer 2
+    100036: DVD  ROM
+    100038: DVD  ROM 1
+    100040: DVD+ReWritable#2
+    100042: Group 1
+    100044: Group 10
+    100046: Group 14
+    100048: Group 2
+    100050: Group 31
+    100052: Group 6
+    100054: Group 8
+    100056: Keyboard
+    100058: mug Sidel
+    100060: Office Chair
+    100062: //RootNode
+    100064: "office's accessories - n\xE9cessaire de bureau"
+    100066: ReWritable#1
+    100068: RW#1
+    100070: SimpleDome02
+    100072: SimpleDome02 1
+    100074: ske91
+    100076: skp2A08
+    100078: skpEF
+    100080: Ultra Speed
+    100082: Westinghouse 17" LCD Computer Monitor
+    400000: 1:1
+    400002: 2:1
+    400004: 3:1
+    400006: 3D_Man_Seated
+    400008: 4:1
+    400010: A simple chair and human model.
+    400012: Box01
+    400014: COMPACT
+    400016: Computer
+    400018: D  LL
+    400020: D  LL#1
+    400022: D  LL#1 1
+    400024: Desk
+    400026: DIMENSION 3100
+    400028: disc#1
+    400030: Drawer
+    400032: Drawer 1
+    400034: Drawer 2
+    400036: DVD  ROM
+    400038: DVD  ROM 1
+    400040: DVD+ReWritable#2
+    400042: Group 1
+    400044: Group 10
+    400046: Group 14
+    400048: Group 2
+    400050: Group 31
+    400052: Group 6
+    400054: Group 8
+    400056: Keyboard
+    400058: mug Sidel
+    400060: Office Chair
+    400062: //RootNode
+    400064: "office's accessories - n\xE9cessaire de bureau"
+    400066: ReWritable#1
+    400068: RW#1
+    400070: SimpleDome02
+    400072: SimpleDome02 1
+    400074: ske91
+    400076: skp2A08
+    400078: skpEF
+    400080: Ultra Speed
+    400082: Westinghouse 17" LCD Computer Monitor
+    2300000: 1:1
+    2300002: 2:1
+    2300004: 3:1
+    2300006: 3D_Man_Seated
+    2300008: 4:1
+    2300010: Box01
+    2300012: COMPACT
+    2300014: Computer
+    2300016: D  LL
+    2300018: D  LL#1
+    2300020: D  LL#1 1
+    2300022: Desk
+    2300024: DIMENSION 3100
+    2300026: disc#1
+    2300028: Drawer
+    2300030: Drawer 1
+    2300032: Drawer 2
+    2300034: DVD  ROM
+    2300036: DVD  ROM 1
+    2300038: DVD+ReWritable#2
+    2300040: Group 10
+    2300042: Group 14
+    2300044: Group 2
+    2300046: Group 31
+    2300048: Group 6
+    2300050: Group 8
+    2300052: mug Sidel
+    2300054: ReWritable#1
+    2300056: RW#1
+    2300058: SimpleDome02
+    2300060: SimpleDome02 1
+    2300062: ske91
+    2300064: Ultra Speed
+    2300066: Westinghouse 17" LCD Computer Monitor
+    3300000: 1:1
+    3300002: 2:1
+    3300004: 3:1
+    3300006: 3D_Man_Seated
+    3300008: 4:1
+    3300010: Box01
+    3300012: COMPACT
+    3300014: Computer
+    3300016: D  LL
+    3300018: D  LL#1
+    3300020: D  LL#1 1
+    3300022: Desk
+    3300024: DIMENSION 3100
+    3300026: disc#1
+    3300028: Drawer
+    3300030: Drawer 1
+    3300032: Drawer 2
+    3300034: DVD  ROM
+    3300036: DVD  ROM 1
+    3300038: DVD+ReWritable#2
+    3300040: Group 10
+    3300042: Group 14
+    3300044: Group 2
+    3300046: Group 31
+    3300048: Group 6
+    3300050: Group 8
+    3300052: mug Sidel
+    3300054: ReWritable#1
+    3300056: RW#1
+    3300058: SimpleDome02
+    3300060: SimpleDome02 1
+    3300062: ske91
+    3300064: Ultra Speed
+    3300066: Westinghouse 17" LCD Computer Monitor
+    4300000: Mesh Group 2
+    4300002: Mesh SimpleDome02
+    4300004: Mesh Group 6
+    4300006: Mesh Group 8
+    4300008: Mesh Group 10
+    4300010: Mesh ske91
+    4300012: Mesh Group 14
+    4300014: Mesh Desk
+    4300016: Mesh Drawer
+    4300018: Mesh Box01
+    4300020: Mesh Group 31
+    4300022: Mesh 3D_Man_Seated
+    4300024: Mesh mug Sidel
+    4300026: Mesh Computer
+    4300028: Mesh D  LL
+    4300030: Mesh SimpleDome02
+    4300032: Mesh DVD  ROM
+    4300034: Mesh DIMENSION 3100
+    4300036: Mesh DVD  ROM
+    4300038: Mesh RW#1
+    4300040: Mesh DVD+ReWritable#2
+    4300042: Mesh COMPACT
+    4300044: Mesh disc#1
+    4300046: Mesh ReWritable#1
+    4300048: Mesh Ultra Speed
+    4300050: Mesh D  LL#1
+    4300052: Mesh Westinghouse 17" LCD Computer Monitor
+    4300054: Mesh 1:1
+    4300056: Mesh 2:1
+    4300058: Mesh 3:1
+    4300060: Mesh 4:1
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
