@@ -1,23 +1,28 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class FadeInBlack : MonoBehaviour {
+public class Fade : MonoBehaviour {
+	public float initialAlpha;
 	public float timeToFade;
+	public float fadeSpeed;
 	private bool beginFade;
 	private CanvasRenderer[] renderers;
 	// Use this for initialization
 	void Start () {
 		renderers = GetComponentsInChildren<CanvasRenderer> ();
-		Invoke ("Disappear", timeToFade - 1);
+		foreach (CanvasRenderer cr in renderers) {
+			cr.SetAlpha(initialAlpha);
+		}
+		Invoke ("StartFade", timeToFade);
 	}
-	private void Disappear() {
+	private void StartFade() {
 		beginFade = true;
 	}
 	// Update is called once per frame
 	void Update () {
 		if (beginFade) {
 			foreach (CanvasRenderer cr in renderers) {
-				cr.SetAlpha(cr.GetAlpha() - 0.05f);
+				cr.SetAlpha(cr.GetAlpha() + fadeSpeed);
 			}
 		}
 	}
