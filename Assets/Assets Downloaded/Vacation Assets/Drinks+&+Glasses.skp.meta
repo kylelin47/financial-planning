@@ -1,0 +1,525 @@
+fileFormatVersion: 2
+guid: eaa4902653a9e48beba793745ef6b62f
+timeCreated: 1461630474
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000
+  assetHash:
+    serializedVersion: 2
+    Hash: ad9b98a901f5737d8babcba9150ffd85
+  longitude: -46.632308050924735
+  latitude: -23.45578813380824
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 1.2727269, y: 1.2702796, z: -1.0453646}
+      lookAt: {x: 1.5386574, y: -17.584196, z: 38.646084}
+      up: {x: 0.0028746685, y: 0.9032721, z: 0.42905858}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Absolut Raspberri
+    100002: Absolut Vodka
+    100004: Belvedere Vodka
+    100006: Belvedere Vodka 1
+    100008: Belvedere Vodka 2
+    100010: bottle
+    100012: bottle#1
+    100014: Component#47
+    100016: Cork
+    100018: Cork 1
+    100020: cork2
+    100022: drink bottles
+    100024: //RootNode
+    100026: Glass Bottle
+    100028: Glass Bottle 1
+    100030: Group 1
+    100032: Group 102
+    100034: Group 105
+    100036: Group 108
+    100038: Group 109
+    100040: Group 111
+    100042: Group 113
+    100044: Group 114
+    100046: Group 116
+    100048: Group 118
+    100050: Group 119
+    100052: Group 121
+    100054: Group 123
+    100056: Group 124
+    100058: Group 126
+    100060: Group 128
+    100062: Group 130
+    100064: Group 131
+    100066: Group 133
+    100068: Group 135
+    100070: Group 136
+    100072: Group 138
+    100074: Group 14
+    100076: Group 140
+    100078: Group 141
+    100080: Group 143
+    100082: Group 145
+    100084: Group 146
+    100086: Group 148
+    100088: Group 150
+    100090: Group 151
+    100092: Group 153
+    100094: Group 155
+    100096: Group 156
+    100098: Group 158
+    100100: Group 16
+    100102: Group 160
+    100104: Group 161
+    100106: Group 163
+    100108: Group 165
+    100110: Group 166
+    100112: Group 168
+    100114: Group 170
+    100116: Group 171
+    100118: Group 173
+    100120: Group 175
+    100122: Group 176
+    100124: Group 178
+    100126: Group 18
+    100128: Group 180
+    100130: Group 181
+    100132: Group 183
+    100134: Group 185
+    100136: Group 187
+    100138: Group 188
+    100140: Group 190
+    100142: Group 192
+    100144: Group 193
+    100146: Group 195
+    100148: Group 197
+    100150: Group 198
+    100152: Group 2
+    100154: Group 20
+    100156: Group 200
+    100158: Group 22
+    100160: Group 24
+    100162: Group 26
+    100164: Group 28
+    100166: Group 33
+    100168: Group 39
+    100170: Group 4
+    100172: Group 41
+    100174: Group 43
+    100176: Group 45
+    100178: Group 47
+    100180: Group 49
+    100182: Group 51
+    100184: Group 72
+    100186: Group 76
+    100188: Group 79
+    100190: Group 81
+    100192: Group 84
+    100194: Group 87
+    100196: Group 9
+    100198: Group 90
+    100200: Holyman Chardonnay Wine Bottle
+    100202: label all around
+    100204: label back
+    100206: label front
+    100208: Laphroiac Scotch Whiskey Bottle
+    100210: ske2B86
+    100212: ske2B86 1
+    100214: ske2B86 2
+    100216: ske9FD4
+    100218: tapered wine glass#1
+    100220: tapered wine glass#1 1
+    100222: tapered wine glass#1 2
+    100224: tapered wine glass#1 3
+    100226: tapered wine glass#1 4
+    100228: tapered wine glass#1 5
+    100230: tapered wine glass#1 6
+    100232: tapered wine glass#1 7
+    100234: tapered wine glass#1 8
+    400000: Absolut Raspberri
+    400002: Absolut Vodka
+    400004: Belvedere Vodka
+    400006: Belvedere Vodka 1
+    400008: Belvedere Vodka 2
+    400010: bottle
+    400012: bottle#1
+    400014: Component#47
+    400016: Cork
+    400018: Cork 1
+    400020: cork2
+    400022: drink bottles
+    400024: //RootNode
+    400026: Glass Bottle
+    400028: Glass Bottle 1
+    400030: Group 1
+    400032: Group 102
+    400034: Group 105
+    400036: Group 108
+    400038: Group 109
+    400040: Group 111
+    400042: Group 113
+    400044: Group 114
+    400046: Group 116
+    400048: Group 118
+    400050: Group 119
+    400052: Group 121
+    400054: Group 123
+    400056: Group 124
+    400058: Group 126
+    400060: Group 128
+    400062: Group 130
+    400064: Group 131
+    400066: Group 133
+    400068: Group 135
+    400070: Group 136
+    400072: Group 138
+    400074: Group 14
+    400076: Group 140
+    400078: Group 141
+    400080: Group 143
+    400082: Group 145
+    400084: Group 146
+    400086: Group 148
+    400088: Group 150
+    400090: Group 151
+    400092: Group 153
+    400094: Group 155
+    400096: Group 156
+    400098: Group 158
+    400100: Group 16
+    400102: Group 160
+    400104: Group 161
+    400106: Group 163
+    400108: Group 165
+    400110: Group 166
+    400112: Group 168
+    400114: Group 170
+    400116: Group 171
+    400118: Group 173
+    400120: Group 175
+    400122: Group 176
+    400124: Group 178
+    400126: Group 18
+    400128: Group 180
+    400130: Group 181
+    400132: Group 183
+    400134: Group 185
+    400136: Group 187
+    400138: Group 188
+    400140: Group 190
+    400142: Group 192
+    400144: Group 193
+    400146: Group 195
+    400148: Group 197
+    400150: Group 198
+    400152: Group 2
+    400154: Group 20
+    400156: Group 200
+    400158: Group 22
+    400160: Group 24
+    400162: Group 26
+    400164: Group 28
+    400166: Group 33
+    400168: Group 39
+    400170: Group 4
+    400172: Group 41
+    400174: Group 43
+    400176: Group 45
+    400178: Group 47
+    400180: Group 49
+    400182: Group 51
+    400184: Group 72
+    400186: Group 76
+    400188: Group 79
+    400190: Group 81
+    400192: Group 84
+    400194: Group 87
+    400196: Group 9
+    400198: Group 90
+    400200: Holyman Chardonnay Wine Bottle
+    400202: label all around
+    400204: label back
+    400206: label front
+    400208: Laphroiac Scotch Whiskey Bottle
+    400210: ske2B86
+    400212: ske2B86 1
+    400214: ske2B86 2
+    400216: ske9FD4
+    400218: tapered wine glass#1
+    400220: tapered wine glass#1 1
+    400222: tapered wine glass#1 2
+    400224: tapered wine glass#1 3
+    400226: tapered wine glass#1 4
+    400228: tapered wine glass#1 5
+    400230: tapered wine glass#1 6
+    400232: tapered wine glass#1 7
+    400234: tapered wine glass#1 8
+    2300000: Belvedere Vodka
+    2300002: Belvedere Vodka 1
+    2300004: Belvedere Vodka 2
+    2300006: bottle
+    2300008: Cork
+    2300010: Cork 1
+    2300012: cork2
+    2300014: Glass Bottle
+    2300016: Glass Bottle 1
+    2300018: Group 102
+    2300020: Group 105
+    2300022: Group 109
+    2300024: Group 111
+    2300026: Group 114
+    2300028: Group 116
+    2300030: Group 119
+    2300032: Group 121
+    2300034: Group 124
+    2300036: Group 126
+    2300038: Group 128
+    2300040: Group 131
+    2300042: Group 133
+    2300044: Group 136
+    2300046: Group 138
+    2300048: Group 14
+    2300050: Group 141
+    2300052: Group 143
+    2300054: Group 146
+    2300056: Group 148
+    2300058: Group 151
+    2300060: Group 153
+    2300062: Group 156
+    2300064: Group 158
+    2300066: Group 16
+    2300068: Group 161
+    2300070: Group 163
+    2300072: Group 166
+    2300074: Group 168
+    2300076: Group 171
+    2300078: Group 173
+    2300080: Group 176
+    2300082: Group 178
+    2300084: Group 18
+    2300086: Group 181
+    2300088: Group 183
+    2300090: Group 185
+    2300092: Group 188
+    2300094: Group 190
+    2300096: Group 193
+    2300098: Group 195
+    2300100: Group 198
+    2300102: Group 2
+    2300104: Group 20
+    2300106: Group 200
+    2300108: Group 22
+    2300110: Group 24
+    2300112: Group 26
+    2300114: Group 28
+    2300116: Group 33
+    2300118: Group 39
+    2300120: Group 41
+    2300122: Group 43
+    2300124: Group 45
+    2300126: Group 47
+    2300128: Group 49
+    2300130: Group 51
+    2300132: Group 72
+    2300134: Group 76
+    2300136: Group 79
+    2300138: Group 81
+    2300140: Group 84
+    2300142: Group 87
+    2300144: label all around
+    2300146: label back
+    2300148: label front
+    2300150: tapered wine glass#1
+    2300152: tapered wine glass#1 1
+    2300154: tapered wine glass#1 2
+    2300156: tapered wine glass#1 3
+    2300158: tapered wine glass#1 4
+    2300160: tapered wine glass#1 5
+    2300162: tapered wine glass#1 6
+    2300164: tapered wine glass#1 7
+    2300166: tapered wine glass#1 8
+    3300000: Belvedere Vodka
+    3300002: Belvedere Vodka 1
+    3300004: Belvedere Vodka 2
+    3300006: bottle
+    3300008: Cork
+    3300010: Cork 1
+    3300012: cork2
+    3300014: Glass Bottle
+    3300016: Glass Bottle 1
+    3300018: Group 102
+    3300020: Group 105
+    3300022: Group 109
+    3300024: Group 111
+    3300026: Group 114
+    3300028: Group 116
+    3300030: Group 119
+    3300032: Group 121
+    3300034: Group 124
+    3300036: Group 126
+    3300038: Group 128
+    3300040: Group 131
+    3300042: Group 133
+    3300044: Group 136
+    3300046: Group 138
+    3300048: Group 14
+    3300050: Group 141
+    3300052: Group 143
+    3300054: Group 146
+    3300056: Group 148
+    3300058: Group 151
+    3300060: Group 153
+    3300062: Group 156
+    3300064: Group 158
+    3300066: Group 16
+    3300068: Group 161
+    3300070: Group 163
+    3300072: Group 166
+    3300074: Group 168
+    3300076: Group 171
+    3300078: Group 173
+    3300080: Group 176
+    3300082: Group 178
+    3300084: Group 18
+    3300086: Group 181
+    3300088: Group 183
+    3300090: Group 185
+    3300092: Group 188
+    3300094: Group 190
+    3300096: Group 193
+    3300098: Group 195
+    3300100: Group 198
+    3300102: Group 2
+    3300104: Group 20
+    3300106: Group 200
+    3300108: Group 22
+    3300110: Group 24
+    3300112: Group 26
+    3300114: Group 28
+    3300116: Group 33
+    3300118: Group 39
+    3300120: Group 41
+    3300122: Group 43
+    3300124: Group 45
+    3300126: Group 47
+    3300128: Group 49
+    3300130: Group 51
+    3300132: Group 72
+    3300134: Group 76
+    3300136: Group 79
+    3300138: Group 81
+    3300140: Group 84
+    3300142: Group 87
+    3300144: label all around
+    3300146: label back
+    3300148: label front
+    3300150: tapered wine glass#1
+    3300152: tapered wine glass#1 1
+    3300154: tapered wine glass#1 2
+    3300156: tapered wine glass#1 3
+    3300158: tapered wine glass#1 4
+    3300160: tapered wine glass#1 5
+    3300162: tapered wine glass#1 6
+    3300164: tapered wine glass#1 7
+    3300166: tapered wine glass#1 8
+    4300000: Mesh Group 2
+    4300002: Mesh Cork
+    4300004: Mesh Glass Bottle
+    4300006: Mesh Group 14
+    4300008: Mesh Group 18
+    4300010: Mesh Belvedere Vodka
+    4300012: Mesh Group 33
+    4300014: Mesh Group 39
+    4300016: Mesh Group 41
+    4300018: Mesh Group 51
+    4300020: Mesh tapered wine glass#1
+    4300022: Mesh Group 72
+    4300024: Mesh Group 76
+    4300026: Mesh Group 79
+    4300028: Mesh Group 81
+    4300030: Mesh Group 84
+    4300032: Mesh Group 87
+    4300034: Mesh cork2
+    4300036: Mesh bottle
+    4300038: Mesh label back
+    4300040: Mesh label all around
+    4300042: Mesh label front
+    4300044: Mesh Group 109
+    4300046: Mesh Group 111
+    4300048: Mesh Group 114
+    4300050: Mesh Group 116
+    4300052: Mesh Group 128
+    4300054: Mesh Group 131
+    4300056: Mesh Group 133
+    4300058: Mesh Group 185
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

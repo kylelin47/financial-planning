@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: a9d54fb0fda204143969c0f688c7d884
+timeCreated: 1461630479
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f0000002000000021000000220000002300000024000000250000002600000027000000
+  assetHash:
+    serializedVersion: 2
+    Hash: cc817990b24ef45b555ab3bfb3f6284b
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 0.3358331, y: 0.429022, z: 0.11491526}
+      lookAt: {x: 0.04133279, y: 0.19429381, z: 0.065766715}
+      up: {x: -0.60961014, y: 0.78614575, z: -0.101736575}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes:
+    - camera:
+        position: {x: 0.20037307, y: 0.42120636, z: 0.3057496}
+        lookAt: {x: 0.018658882, y: 0.17880645, z: 0.07669591}
+        up: {x: -0.39666766, y: 0.7698369, z: -0.5000061}
+        fov: 35
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: Scene 1
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Group 1
+    100002: Group 12
+    100004: Group 13
+    100006: Group 14
+    100008: Group 2
+    100010: Group 21
+    100012: Group 22
+    100014: Group 24
+    100016: Group 26
+    100018: Group 29
+    100020: Group 32
+    100022: Group 35
+    100024: Group 38
+    100026: Group 4
+    100028: parasol
+    100030: //RootNode
+    100032: spool
+    100034: straw
+    100036: straw 1
+    100038: strawberry
+    100040: strawberry_leaf
+    100042: strawberry_leaf 1
+    100044: strawberry_leaf 2
+    100046: strawberry_leaf 3
+    100048: strawberry_leaf 4
+    100050: topping
+    400000: Group 1
+    400002: Group 12
+    400004: Group 13
+    400006: Group 14
+    400008: Group 2
+    400010: Group 21
+    400012: Group 22
+    400014: Group 24
+    400016: Group 26
+    400018: Group 29
+    400020: Group 32
+    400022: Group 35
+    400024: Group 38
+    400026: Group 4
+    400028: parasol
+    400030: //RootNode
+    400032: spool
+    400034: straw
+    400036: straw 1
+    400038: strawberry
+    400040: strawberry_leaf
+    400042: strawberry_leaf 1
+    400044: strawberry_leaf 2
+    400046: strawberry_leaf 3
+    400048: strawberry_leaf 4
+    400050: topping
+    2300000: Group 14
+    2300002: Group 2
+    2300004: Group 22
+    2300006: Group 26
+    2300008: Group 29
+    2300010: Group 32
+    2300012: Group 35
+    2300014: Group 38
+    2300016: Group 4
+    2300018: parasol
+    2300020: spool
+    2300022: straw
+    2300024: straw 1
+    2300026: topping
+    3300000: Group 14
+    3300002: Group 2
+    3300004: Group 22
+    3300006: Group 26
+    3300008: Group 29
+    3300010: Group 32
+    3300012: Group 35
+    3300014: Group 38
+    3300016: Group 4
+    3300018: parasol
+    3300020: spool
+    3300022: straw
+    3300024: straw 1
+    3300026: topping
+    4300000: Mesh Group 2
+    4300002: Mesh Group 4
+    4300004: Mesh spool
+    4300006: Mesh straw
+    4300008: Mesh parasol
+    4300010: Mesh Group 14
+    4300012: Mesh topping
+    4300014: Mesh Group 22
+    4300016: Mesh Group 26
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
