@@ -9,9 +9,6 @@ public class OfficeGameplayManager : MonoBehaviour {
 	public Text bossSubtitles;
 	public Text secretarySubtitles;
 
-	public Text tapToTakeCheck;
-	public Text visitSecretary;
-
 	public GameObject largeCheck;
 	public GameObject smallCheck;
 
@@ -53,8 +50,12 @@ public class OfficeGameplayManager : MonoBehaviour {
 
 	public void tapToToggleWalkingStart() {
 		walkingScript.enabled = true;
-		subtitleManager.playSubtitleForTime("Tap To Toggle Walking", 2, null);
-		currentTriggerManager = null;
+		deskText.text = "Tap To Toggle Walking";
+		currentTriggerManager = removeDeskText;
+	}
+
+	public void removeDeskText() {
+		deskText.text = "";
 	}
 
 	public void startBossSubtitles() {
