@@ -12,6 +12,8 @@ public class OfficeGameplayManager : MonoBehaviour {
 	public GameObject largeCheck;
 	public GameObject smallCheck;
 
+	public GameObject flyerCanvas;
+
 	public VoiceActingAudioManager bossAudioManager;
 	public VoiceActingAudioManager secretaryAudioManager;
 
@@ -120,5 +122,6 @@ public class OfficeGameplayManager : MonoBehaviour {
 		if (secretaryClips.Length > 0) {
 			secretaryAudioManager.PlayAudio(secretaryClips[0]);
 		}
+		flyerCanvas.SetActive(true);
 	}
 }
