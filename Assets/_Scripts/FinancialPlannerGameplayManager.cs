@@ -144,4 +144,8 @@ public class FinancialPlannerGameplayManager : MonoBehaviour {
 		tv4LargeUI.SetActive(false);
 		walkingScript.enabled = true;
 	}
+
+	public void advanceToNextLevel() {
+
+	}
 }
