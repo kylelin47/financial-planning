@@ -14,6 +14,8 @@ public class FinancialPlannerGameplayManager : MonoBehaviour {
 	public GameObject tv3LargeUI;
 	public GameObject tv4LargeUI;
 
+	public GameObject tvCharts;
+
 	public VoiceActingAudioManager bossAudioManager;
 	public VoiceActingAudioManager secretaryAudioManager;
 
@@ -25,8 +27,7 @@ public class FinancialPlannerGameplayManager : MonoBehaviour {
 	public SubtitleManager subtitleManager;
 
 	TriggerManager currentTriggerManager;
-	public TriggerCapture firstBossSubtitleTriggerObject;
-	public TriggerCapture secondBossSubtitleTriggerObject;
+	public TriggerCapture bossSubtitleTriggerObject;
 	public TriggerCapture secretarySubtitleTriggerObject;
 
 	private delegate void TriggerManager();
@@ -35,8 +36,7 @@ public class FinancialPlannerGameplayManager : MonoBehaviour {
 		subtitleManager.subtitleText = secretarySubtitles;
 		currentTriggerManager = null;
 
-		firstBossSubtitleTriggerObject.triggerFunction = openingBossSubtitle;
-		secondBossSubtitleTriggerObject.triggerFunction = startBossSubtitles;
+		bossSubtitleTriggerObject.triggerFunction = openingBossSubtitle;
 		secretarySubtitleTriggerObject.triggerFunction = startSecretarySubtitles;
 
 		walkingScript.enabled = true;
@@ -54,7 +54,7 @@ public class FinancialPlannerGameplayManager : MonoBehaviour {
 
 	public void openingBossSubtitle() {
 		subtitleManager.subtitleText = bossSubtitles;
-		subtitleManager.playSubtitleForTime("Welcome, Come on in!", 5, null);
+		subtitleManager.playSubtitleForTime("Welcome, Come on in!", 3, startBossSubtitles);
 		if (bossClipIndex < bossClips.Length) {
 			bossAudioManager.PlayAudio(bossClips[bossClipIndex++]);
 		}
@@ -62,36 +62,40 @@ public class FinancialPlannerGameplayManager : MonoBehaviour {
 
 	public void startBossSubtitles() {
 		subtitleManager.subtitleText = bossSubtitles;
-		subtitleManager.playSubtitleForTime("I'm so excited for us to get started on this journey together", 5, bossSubtitle2);
+		subtitleManager.playSubtitleForTime("I'm so excited for us to get started on this journey together.", 4, bossSubtitle2);
 		if (bossClipIndex < bossClips.Length) {
 			bossAudioManager.PlayAudio(bossClips[bossClipIndex++]);
 		}
 	}
 
 	void bossSubtitle2() {
-		subtitleManager.playSubtitleForTime("Today we will start you on your way to financial freedom, and success", 5, bossSubtitle3);
+		subtitleManager.playSubtitleForTime("Today we will start you on your way to financial freedom, and success.", 4, bossSubtitle3);
 		if (bossClipIndex < bossClips.Length) {
 			bossAudioManager.PlayAudio(bossClips[bossClipIndex++]);
 		}
 	}
 
 	void bossSubtitle3() {
-		subtitleManager.playSubtitleForTime("Here on the TVs behind me, I have a variety of charts and graphs for you to look at", 4, bossSubtitle4);
+		subtitleManager.playSubtitleForTime("I'm about to pull up variety of charts and graphs on the TVs behind me.", 4, bossSubtitle4);
 		if (bossClipIndex < bossClips.Length) {
 			bossAudioManager.PlayAudio(bossClips[bossClipIndex++]);
 		}
 	}
 
 	void bossSubtitle4() {
-		subtitleManager.playSubtitleForTime("Take your time looking at everything.", 4, null);
+		subtitleManager.playSubtitleForTime("Take your time looking at everything.", 3, enableCharts);
 		if (bossClipIndex < bossClips.Length) {
 			bossAudioManager.PlayAudio(bossClips[bossClipIndex++]);
 		}
 	}
+
+	void enableCharts() {
+		tvCharts.SetActive(true);
+	}
 		
 	public void startSecretarySubtitles() {
 		subtitleManager.subtitleText = secretarySubtitles;
-		subtitleManager.playSubtitleForTime("Welcome! Mr. McGill is ready for you.", 5, secretarySubtitle2);
+		subtitleManager.playSubtitleForTime("Welcome! Mr. McGill is ready for you.", 3, secretarySubtitle2);
 		if (secretaryClips.Length > 0) {
 			secretaryAudioManager.PlayAudio(secretaryClips[0]);
 		}
@@ -99,7 +103,7 @@ public class FinancialPlannerGameplayManager : MonoBehaviour {
 
 	void secretarySubtitle2() {
 		subtitleManager.subtitleText = secretarySubtitles;
-		subtitleManager.playSubtitleForTime("His office is just through those doors", 5, null);
+		subtitleManager.playSubtitleForTime("His office is just through those doors.", 3, null);
 		if (secretaryClips.Length > 1) {
 			secretaryAudioManager.PlayAudio(secretaryClips[1]);
 		}
