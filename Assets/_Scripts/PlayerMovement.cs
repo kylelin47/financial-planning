@@ -58,9 +58,13 @@ public class PlayerMovement : MonoBehaviour
 	}
 	private void AllowMove() {
 		canMove = true;
+		reticle.GetComponent<Renderer> ().enabled = false;
 		reticle.SetActive(true);
+		Invoke ("ShowReticle", 0.1f);
 	}
-
+	private void ShowReticle() {
+		reticle.GetComponent<Renderer> ().enabled = true;
+	}
 	void Update () 
 	{
 		if (canMove) {
