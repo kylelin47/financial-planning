@@ -23,6 +23,9 @@ public class Fade : MonoBehaviour {
 		if (beginFade) {
 			foreach (CanvasRenderer cr in renderers) {
 				cr.SetAlpha(cr.GetAlpha() + fadeSpeed);
+				if (cr.GetAlpha () <= 0) {
+					Destroy (gameObject);
+				}
 			}
 		}
 	}

@@ -12,7 +12,7 @@ public class SwitchCars : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		cc = (ChoiceController) FindObjectOfType(typeof(ChoiceController));
-		if (!cc.choice1) {
+		if (cc.choseCivic) {
 			player.transform.position = civicWaypoint.position;
 			player.transform.parent = civicWaypoint;
 			player.transform.rotation = civicWaypoint.rotation;

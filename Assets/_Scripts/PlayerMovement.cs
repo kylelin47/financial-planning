@@ -1,76 +1,130 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿// This script moves your player automatically in the direction he is looking at. You can 
+// activate the autowalk function by pull the cardboard trigger, by define a threshold angle 
+// or combine both by selecting both of these options.
+// The threshold is an value in degree between 0° and 90°. So for example the threshold is 
+// 30°, the player will move when he is looking 31° down to the bottom and he will not move 
+// when the player is looking 29° down to the bottom. This script can easally be configured
+// in the Unity Inspector.Attach this Script to your CardboardMain-GameObject. If you 
+// haven't the Cardboard Unity SDK, download it from https://developers.google.com/cardboard/unity/download
 
-[RequireComponent(typeof (CharacterController))]
-[RequireComponent(typeof (AudioSource))]
-public class PlayerMovement : MonoBehaviour {
-	private bool canMove;
+using UnityEngine;
+using UnityEngine.UI;
+using System.Collections;
+using UnityEngine.SceneManagement;
+
+public class PlayerMovement : MonoBehaviour 
+{
+
+	public AudioSource AudioFile;
+	// public Image panel;
+	private const int RIGHT_ANGLE = 90; 
+
+	// This variable determinates if the player will move or not 
+	private bool isWalking = false;
+
+	CardboardHead head = null;
+
+	//This is the variable for the player speed
+	[Tooltip("With this speed the player will move.")]
 	public float speed;
+
+	[Tooltip("Activate this checkbox if the player shall move when the Cardboard trigger is pulled.")]
+	public bool walkWhenTriggered;
+
+	[Tooltip("Activate this checkbox if the player shall move when he looks below the threshold.")]
+	public bool walkWhenLookDown;
+
+	[Tooltip("This has to be an angle from 0° to 90°")]
+	public double thresholdAngle;
+
+	[Tooltip("Activate this Checkbox if you want to freeze the y-coordiante for the player. " +
+		"For example in the case of you have no collider attached to your CardboardMain-GameObject" +
+		"and you want to stay in a fixed level.")]
+	public bool freezeYPosition; 
+
+	[Tooltip("This is the fixed y-coordinate.")]
+	public float yOffset;
+
+	private bool canToggleWalking = true;
 	public float disabledTime;
-	[SerializeField] private float m_StepInterval;
-	[SerializeField] private AudioClip[] m_FootstepSounds;
-	private CharacterController m_CharacterController;
-	private float m_StepCycle;
-	private float m_NextStep;
-	private AudioSource m_AudioSource;
-	private void Start()
+	public Renderer reticle;
+	private bool canMove;
+	void Start () 
 	{
-		Invoke ("AllowMove", disabledTime);
-		m_CharacterController = GetComponent<CharacterController>();
-		m_StepCycle = 0f;
-		m_NextStep = m_StepCycle/2f;
-		m_AudioSource = GetComponent<AudioSource>();
+		head = Camera.main.GetComponent<StereoController>().Head;
+		reticle.enabled = false;
+		// panel.gameObject.SetActive(false);
+		Invoke("AllowMove", disabledTime);
 	}
 	private void AllowMove() {
 		canMove = true;
+		reticle.enabled = true;
 	}
-	void Update() // called once per frame
+
+	void Update () 
 	{
 		if (canMove) {
-			m_CharacterController.SimpleMove (calculateMovementVector ());
-		}
-	}
-	void FixedUpdate()
-	{
-		ProgressStepCycle(speed);
-	}
-	private Vector3 calculateMovementVector()
-	{
-		Vector3 movement = Camera.main.transform.right * Input.GetAxis ("Horizontal") +
-			Camera.main.transform.forward * Input.GetAxis ("Vertical");
-		return movement * speed;
-	}
-	private void ProgressStepCycle(float speed)
-	{
-		if (m_CharacterController.velocity.sqrMagnitude > 0 &&
-			(Input.GetAxisRaw ("Horizontal") != 0 || Input.GetAxisRaw ("Vertical") != 0))
-		{
-			m_StepCycle += (m_CharacterController.velocity.magnitude + speed)*
-				Time.fixedDeltaTime;
-		}
+			if (!canToggleWalking) {
+				if (isWalking) {
+					walk ();
+				}
+				return;
+			}
 
-		if (!(m_StepCycle > m_NextStep))
-		{
-			return;
+			// Walk when the Cardboard Trigger is used 
+			if (walkWhenTriggered && !walkWhenLookDown && !isWalking && Cardboard.SDK.CardboardTriggered) {
+				isWalking = true;
+				if (AudioFile != null) {
+					AudioFile.Play ();
+				}
+			} else if (walkWhenTriggered && !walkWhenLookDown && isWalking && Cardboard.SDK.CardboardTriggered) {
+				isWalking = false;
+				if (AudioFile != null) {
+					AudioFile.Stop ();
+				}
+			}
+
+			// Walk when player looks below the threshold angle 
+			if (walkWhenLookDown && !walkWhenTriggered && !isWalking &&
+			   head.transform.eulerAngles.x >= thresholdAngle &&
+			   head.transform.eulerAngles.x <= RIGHT_ANGLE) {
+				isWalking = true;
+			} else if (walkWhenLookDown && !walkWhenTriggered && isWalking &&
+			        (head.transform.eulerAngles.x <= thresholdAngle ||
+			        head.transform.eulerAngles.x >= RIGHT_ANGLE)) {
+				isWalking = false;
+			}
+
+			// Walk when the Cardboard trigger is used and the player looks down below the threshold angle
+			if (walkWhenLookDown && walkWhenTriggered && !isWalking &&
+			   head.transform.eulerAngles.x >= thresholdAngle &&
+			   Cardboard.SDK.CardboardTriggered &&
+			   head.transform.eulerAngles.x <= RIGHT_ANGLE) {
+				isWalking = true;
+			} else if (walkWhenLookDown && walkWhenTriggered && isWalking &&
+			        head.transform.eulerAngles.x >= thresholdAngle &&
+			        (Cardboard.SDK.CardboardTriggered ||
+			        head.transform.eulerAngles.x >= RIGHT_ANGLE)) {
+				isWalking = false;
+			}
+
+			if (isWalking) {
+				walk ();
+			}
+
+			if (freezeYPosition) {
+				transform.position = new Vector3 (transform.position.x, yOffset, transform.position.z);
+			}
 		}
-
-		m_NextStep = m_StepCycle + m_StepInterval;
-
-		PlayFootStepAudio();
 	}
-	private void PlayFootStepAudio()
-	{
-		if (!m_CharacterController.isGrounded)
-		{
-			return;
-		}
-		// pick & play a random footstep sound from the array,
-		// excluding sound at index 0
-		int n = Random.Range(1, m_FootstepSounds.Length);
-		m_AudioSource.clip = m_FootstepSounds[n];
-		m_AudioSource.PlayOneShot(m_AudioSource.clip);
-		// move picked sound to index 0 so it's not picked next time
-		m_FootstepSounds[n] = m_FootstepSounds[0];
-		m_FootstepSounds[0] = m_AudioSource.clip;
+
+	public void walk() {
+		Vector3 direction = new Vector3(head.transform.forward.x, 0, head.transform.forward.z).normalized * speed * Time.deltaTime;
+		Quaternion rotation = Quaternion.Euler(new Vector3(0, -transform.rotation.eulerAngles.y, 0));
+		transform.Translate(rotation * direction);
+	}
+
+	public void setCanWalk(bool canWalk) {
+		canToggleWalking = canWalk;
 	}
 }
