@@ -33,7 +33,7 @@ public class ChoiceController : MonoBehaviour {
 				}
 			}
 		} else if (activeScene == "Kyle - Sportscar") {
-			if (age > 30) {
+			if (age > 35) {
 				Debug.Log ("Move to next scene");
 			}
 		}

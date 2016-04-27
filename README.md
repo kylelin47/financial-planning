@@ -31,12 +31,20 @@ The experience of making a choice between a short-term and a long-term benefit s
 ### Audio
 | Title | Author | Source |
 | --- | --- | --- |
+| Current NPR All Things Considered Theme | Wycliffe Gordon | https://www.youtube.com/watch?v=Qkq5CFGOBH4 |
 | Murmuring And Talking Men Sound Effect | Royal Free Sound | https://www.youtube.com/watch?v=wn2-xdnkPJo |
+| wind 4.wav | Huggy13ear | https://www.freesound.org/people/Huggy13ear/sounds/138968/ |
 
-### Models
+### Models / Textures / Animations
 | Title | Author | Source |
 | --- | --- | --- |
+| Audi R8 GT Spyder Typ 42 2012 | dennisp | https://www.cgtrader.com/free-3d-models/car/sport/audi-r8-gt-spyder-typ-42-2012 |
+| Dirt 01 Game-Ready | The Texture Lab | https://www.assetstore.unity3d.com/en/#!/content/28938 |
+| Google Valley Honda - Fully Furnished & Loaded | Cordelle | https://3dwarehouse.sketchup.com/model.html?id=9a2f40bbf564127d7a7f613ed951587c |
+| Honda Civic Si Coupé 2012 | dennisp | https://www.cgtrader.com/free-3d-models/car/standard/honda-civic-si-coupe-2012 |
+| Idle/Driving/Walking/Turn 90 | Adobe | http://www.mixamo.com |
 | Kajaman's Roads - Free | Kajaman | https://www.assetstore.unity3d.com/en/#!/content/52628 |
+| Remy/Regina/Malcolm/Lima | Adobe | http://www.mixamo.com |
 
 ## Team Members
 - Zane Hooper
