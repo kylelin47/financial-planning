@@ -47,18 +47,18 @@ public class PlayerMovement : MonoBehaviour
 
 	private bool canToggleWalking = true;
 	public float disabledTime;
-	public Renderer reticle;
+	public GameObject reticle;
 	private bool canMove;
 	void Start () 
 	{
 		head = Camera.main.GetComponent<StereoController>().Head;
-		reticle.enabled = false;
+		reticle.SetActive(false);
 		// panel.gameObject.SetActive(false);
 		Invoke("AllowMove", disabledTime);
 	}
 	private void AllowMove() {
 		canMove = true;
-		reticle.enabled = true;
+		reticle.SetActive(true);
 	}
 
 	void Update () 
