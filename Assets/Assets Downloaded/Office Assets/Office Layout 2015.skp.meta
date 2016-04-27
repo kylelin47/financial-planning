@@ -1,0 +1,461 @@
+fileFormatVersion: 2
+guid: 94c146361daf4443399e222f929f610e
+timeCreated: 1461795935
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000
+  assetHash:
+    serializedVersion: 2
+    Hash: b30dbc9d6fdbe1678368abf4c7bd2658
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 8.524804, y: 23.726051, z: 24.294476}
+      lookAt: {x: 7.473104, y: 8.0554085, z: 7.500297}
+      up: {x: -0.04259487, y: 0.73180604, z: -0.68018067}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: button
+    100002: button 1
+    100004: button 10
+    100006: button 11
+    100008: button 12
+    100010: button 13
+    100012: button 14
+    100014: button 15
+    100016: button 16
+    100018: button 17
+    100020: button 18
+    100022: button 19
+    100024: button 2
+    100026: button 20
+    100028: button 21
+    100030: button 22
+    100032: button 23
+    100034: button 24
+    100036: button 25
+    100038: button 26
+    100040: button 27
+    100042: button 28
+    100044: button 29
+    100046: button 3
+    100048: button 30
+    100050: button 31
+    100052: button 4
+    100054: button 5
+    100056: button 6
+    100058: button 7
+    100060: button 8
+    100062: button 9
+    100064: ChamferBox
+    100066: Component#1
+    100068: Component#1 1
+    100070: Component#1 2
+    100072: Component#1 3
+    100074: Computer_Desktop_Flatscreen
+    100076: Computer_Desktop_Flatscreen 1
+    100078: Computer_Desktop_Flatscreen#1
+    100080: Computer_Desktop_Flatscreen#1 1
+    100082: Executive Desk
+    100084: EXECUTIVE DESK#1
+    100086: Executive office chair
+    100088: Group 157
+    100090: Group 159
+    100092: Group 161
+    100094: Group 163
+    100096: Group 165
+    100098: Group 167
+    100100: Group 24
+    100102: Group 26
+    100104: Group 28
+    100106: Group 72
+    100108: Group 74
+    100110: Group 76
+    100112: Group#1
+    100114: Group#1 1
+    100116: Group#1 2
+    100118: Group#1 3
+    100120: Group#1 4
+    100122: Group#1 5
+    100124: Group#1 6
+    100126: Group#1 7
+    100128: Group#1 8
+    100130: Group#1 9
+    100132: Keyboard
+    100134: Keyboard 1
+    100136: L desk
+    100138: Monitor
+    100140: Monitor 1
+    100142: Monitor_Half
+    100144: Monitor_Half 1
+    100146: Monitor_Half 2
+    100148: Monitor_Half 3
+    100150: name plate
+    100152: name plate 1
+    100154: name plate 2
+    100156: name plate 3
+    100158: name plate 4
+    100160: name plate 5
+    100162: name plate 6
+    100164: name plate 7
+    100166: //RootNode
+    100168: Phone_Desk
+    100170: Phone_Desk 1
+    100172: Profile 1
+    100174: Reception Desk
+    100176: RECEPTION DESK#1
+    100178: ske252
+    100180: skeFD
+    100182: skeFD 1
+    100184: skpF2
+    400000: button
+    400002: button 1
+    400004: button 10
+    400006: button 11
+    400008: button 12
+    400010: button 13
+    400012: button 14
+    400014: button 15
+    400016: button 16
+    400018: button 17
+    400020: button 18
+    400022: button 19
+    400024: button 2
+    400026: button 20
+    400028: button 21
+    400030: button 22
+    400032: button 23
+    400034: button 24
+    400036: button 25
+    400038: button 26
+    400040: button 27
+    400042: button 28
+    400044: button 29
+    400046: button 3
+    400048: button 30
+    400050: button 31
+    400052: button 4
+    400054: button 5
+    400056: button 6
+    400058: button 7
+    400060: button 8
+    400062: button 9
+    400064: ChamferBox
+    400066: Component#1
+    400068: Component#1 1
+    400070: Component#1 2
+    400072: Component#1 3
+    400074: Computer_Desktop_Flatscreen
+    400076: Computer_Desktop_Flatscreen 1
+    400078: Computer_Desktop_Flatscreen#1
+    400080: Computer_Desktop_Flatscreen#1 1
+    400082: Executive Desk
+    400084: EXECUTIVE DESK#1
+    400086: Executive office chair
+    400088: Group 157
+    400090: Group 159
+    400092: Group 161
+    400094: Group 163
+    400096: Group 165
+    400098: Group 167
+    400100: Group 24
+    400102: Group 26
+    400104: Group 28
+    400106: Group 72
+    400108: Group 74
+    400110: Group 76
+    400112: Group#1
+    400114: Group#1 1
+    400116: Group#1 2
+    400118: Group#1 3
+    400120: Group#1 4
+    400122: Group#1 5
+    400124: Group#1 6
+    400126: Group#1 7
+    400128: Group#1 8
+    400130: Group#1 9
+    400132: Keyboard
+    400134: Keyboard 1
+    400136: L desk
+    400138: Monitor
+    400140: Monitor 1
+    400142: Monitor_Half
+    400144: Monitor_Half 1
+    400146: Monitor_Half 2
+    400148: Monitor_Half 3
+    400150: name plate
+    400152: name plate 1
+    400154: name plate 2
+    400156: name plate 3
+    400158: name plate 4
+    400160: name plate 5
+    400162: name plate 6
+    400164: name plate 7
+    400166: //RootNode
+    400168: Phone_Desk
+    400170: Phone_Desk 1
+    400172: Profile 1
+    400174: Reception Desk
+    400176: RECEPTION DESK#1
+    400178: ske252
+    400180: skeFD
+    400182: skeFD 1
+    400184: skpF2
+    2300000: button
+    2300002: button 1
+    2300004: button 10
+    2300006: button 11
+    2300008: button 12
+    2300010: button 13
+    2300012: button 14
+    2300014: button 15
+    2300016: button 16
+    2300018: button 17
+    2300020: button 18
+    2300022: button 19
+    2300024: button 2
+    2300026: button 20
+    2300028: button 21
+    2300030: button 22
+    2300032: button 23
+    2300034: button 24
+    2300036: button 25
+    2300038: button 26
+    2300040: button 27
+    2300042: button 28
+    2300044: button 29
+    2300046: button 3
+    2300048: button 30
+    2300050: button 31
+    2300052: button 4
+    2300054: button 5
+    2300056: button 6
+    2300058: button 7
+    2300060: button 8
+    2300062: button 9
+    2300064: ChamferBox
+    2300066: Component#1
+    2300068: Component#1 1
+    2300070: Component#1 2
+    2300072: Component#1 3
+    2300074: Executive Desk
+    2300076: Group 157
+    2300078: Group 159
+    2300080: Group 161
+    2300082: Group 163
+    2300084: Group 165
+    2300086: Group 167
+    2300088: Group 24
+    2300090: Group 26
+    2300092: Group 28
+    2300094: Group 72
+    2300096: Group 74
+    2300098: Group 76
+    2300100: Group#1
+    2300102: Group#1 1
+    2300104: Group#1 2
+    2300106: Group#1 3
+    2300108: Group#1 4
+    2300110: Group#1 5
+    2300112: Group#1 6
+    2300114: Group#1 7
+    2300116: Group#1 8
+    2300118: Group#1 9
+    2300120: Keyboard
+    2300122: Keyboard 1
+    2300124: L desk
+    2300126: Monitor_Half
+    2300128: Monitor_Half 1
+    2300130: Monitor_Half 2
+    2300132: Monitor_Half 3
+    2300134: name plate
+    2300136: name plate 1
+    2300138: name plate 2
+    2300140: name plate 3
+    2300142: name plate 4
+    2300144: name plate 5
+    2300146: name plate 6
+    2300148: name plate 7
+    2300150: //RootNode
+    2300152: Phone_Desk
+    2300154: Phone_Desk 1
+    2300156: Profile 1
+    2300158: ske252
+    2300160: skeFD
+    2300162: skeFD 1
+    3300000: button
+    3300002: button 1
+    3300004: button 10
+    3300006: button 11
+    3300008: button 12
+    3300010: button 13
+    3300012: button 14
+    3300014: button 15
+    3300016: button 16
+    3300018: button 17
+    3300020: button 18
+    3300022: button 19
+    3300024: button 2
+    3300026: button 20
+    3300028: button 21
+    3300030: button 22
+    3300032: button 23
+    3300034: button 24
+    3300036: button 25
+    3300038: button 26
+    3300040: button 27
+    3300042: button 28
+    3300044: button 29
+    3300046: button 3
+    3300048: button 30
+    3300050: button 31
+    3300052: button 4
+    3300054: button 5
+    3300056: button 6
+    3300058: button 7
+    3300060: button 8
+    3300062: button 9
+    3300064: ChamferBox
+    3300066: Component#1
+    3300068: Component#1 1
+    3300070: Component#1 2
+    3300072: Component#1 3
+    3300074: Executive Desk
+    3300076: Group 157
+    3300078: Group 159
+    3300080: Group 161
+    3300082: Group 163
+    3300084: Group 165
+    3300086: Group 167
+    3300088: Group 24
+    3300090: Group 26
+    3300092: Group 28
+    3300094: Group 72
+    3300096: Group 74
+    3300098: Group 76
+    3300100: Group#1
+    3300102: Group#1 1
+    3300104: Group#1 2
+    3300106: Group#1 3
+    3300108: Group#1 4
+    3300110: Group#1 5
+    3300112: Group#1 6
+    3300114: Group#1 7
+    3300116: Group#1 8
+    3300118: Group#1 9
+    3300120: Keyboard
+    3300122: Keyboard 1
+    3300124: L desk
+    3300126: Monitor_Half
+    3300128: Monitor_Half 1
+    3300130: Monitor_Half 2
+    3300132: Monitor_Half 3
+    3300134: name plate
+    3300136: name plate 1
+    3300138: name plate 2
+    3300140: name plate 3
+    3300142: name plate 4
+    3300144: name plate 5
+    3300146: name plate 6
+    3300148: name plate 7
+    3300150: //RootNode
+    3300152: Phone_Desk
+    3300154: Phone_Desk 1
+    3300156: Profile 1
+    3300158: ske252
+    3300160: skeFD
+    3300162: skeFD 1
+    4300000: Mesh Office Layout 2015
+    4300002: Mesh Monitor_Half
+    4300004: Mesh Keyboard
+    4300006: Mesh Phone_Desk
+    4300008: Mesh Group 24
+    4300010: Mesh Group 26
+    4300012: Mesh Group 28
+    4300014: Mesh button
+    4300016: Mesh name plate
+    4300018: Mesh ske252
+    4300020: Mesh skeFD
+    4300022: Mesh Group#1
+    4300024: Mesh Component#1
+    4300026: Mesh L desk
+    4300028: Mesh Executive Desk
+    4300030: Mesh Group 157
+    4300032: Mesh Group 159
+    4300034: Mesh Group 161
+    4300036: Mesh Profile 1
+    4300038: Mesh ChamferBox
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
