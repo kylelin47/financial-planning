@@ -1,0 +1,143 @@
+﻿using UnityEngine;
+using UnityEngine.UI;
+using System.Collections;
+
+public class FinancialPlannerGameplayManager : MonoBehaviour {
+
+	public Autowalk walkingScript;
+
+	public Text bossSubtitles;
+	public Text secretarySubtitles;
+
+	public GameObject tv1LargeUI;
+	public GameObject tv2LargeUI;
+	public GameObject tv3LargeUI;
+	public GameObject tv4LargeUI;
+
+	public VoiceActingAudioManager bossAudioManager;
+	public VoiceActingAudioManager secretaryAudioManager;
+
+	public AudioClip[] bossClips;
+	public AudioClip[] secretaryClips;
+
+	private int bossClipIndex = 0;
+
+	public SubtitleManager subtitleManager;
+
+	TriggerManager currentTriggerManager;
+	public TriggerCapture firstBossSubtitleTriggerObject;
+	public TriggerCapture secondBossSubtitleTriggerObject;
+	public TriggerCapture secretarySubtitleTriggerObject;
+
+	private delegate void TriggerManager();
+
+	void Start () {
+		subtitleManager.subtitleText = secretarySubtitles;
+		currentTriggerManager = null;
+
+		firstBossSubtitleTriggerObject.triggerFunction = openingBossSubtitle;
+		secondBossSubtitleTriggerObject.triggerFunction = startBossSubtitles;
+		secretarySubtitleTriggerObject.triggerFunction = startSecretarySubtitles;
+
+		walkingScript.enabled = true;
+	}
+
+	void Update () {
+		if (Cardboard.SDK.Triggered) {
+			if (currentTriggerManager != null) {
+				Debug.Log("Cardboard Triggered");
+				currentTriggerManager();
+				// skipToFlying();
+			}
+		}
+	}
+
+	public void openingBossSubtitle() {
+		subtitleManager.subtitleText = bossSubtitles;
+		subtitleManager.playSubtitleForTime("Welcome, Come on in!", 5, null);
+		if (bossClipIndex < bossClips.Length) {
+			bossAudioManager.PlayAudio(bossClips[bossClipIndex++]);
+		}
+	}
+
+	public void startBossSubtitles() {
+		subtitleManager.subtitleText = bossSubtitles;
+		subtitleManager.playSubtitleForTime("I'm so excited for us to get started on this journey together", 5, bossSubtitle2);
+		if (bossClipIndex < bossClips.Length) {
+			bossAudioManager.PlayAudio(bossClips[bossClipIndex++]);
+		}
+	}
+
+	void bossSubtitle2() {
+		subtitleManager.playSubtitleForTime("Today we will start you on your way to financial freedom, and success", 5, bossSubtitle3);
+		if (bossClipIndex < bossClips.Length) {
+			bossAudioManager.PlayAudio(bossClips[bossClipIndex++]);
+		}
+	}
+
+	void bossSubtitle3() {
+		subtitleManager.playSubtitleForTime("Here on the TVs behind me, I have a variety of charts and graphs for you to look at", 4, bossSubtitle4);
+		if (bossClipIndex < bossClips.Length) {
+			bossAudioManager.PlayAudio(bossClips[bossClipIndex++]);
+		}
+	}
+
+	void bossSubtitle4() {
+		subtitleManager.playSubtitleForTime("Take your time looking at everything.", 4, null);
+		if (bossClipIndex < bossClips.Length) {
+			bossAudioManager.PlayAudio(bossClips[bossClipIndex++]);
+		}
+	}
+		
+	public void startSecretarySubtitles() {
+		subtitleManager.subtitleText = secretarySubtitles;
+		subtitleManager.playSubtitleForTime("Welcome! Mr. McGill is ready for you.", 5, secretarySubtitle2);
+		if (secretaryClips.Length > 0) {
+			secretaryAudioManager.PlayAudio(secretaryClips[0]);
+		}
+	}
+
+	void secretarySubtitle2() {
+		subtitleManager.subtitleText = secretarySubtitles;
+		subtitleManager.playSubtitleForTime("His office is just through those doors", 5, null);
+		if (secretaryClips.Length > 1) {
+			secretaryAudioManager.PlayAudio(secretaryClips[1]);
+		}
+	}
+
+	public void examineTV1UI() {
+		disableAllLargeTVUI();
+		tv1LargeUI.SetActive(true);
+		currentTriggerManager = disableAllLargeTVUI;
+		walkingScript.enabled = false;
+	}
+
+	public void examineTV2UI() {
+		disableAllLargeTVUI();
+		tv2LargeUI.SetActive(true);
+		currentTriggerManager = disableAllLargeTVUI;
+		walkingScript.enabled = false;
+	}
+
+	public void examineTV3UI() {
+		disableAllLargeTVUI();
+		tv3LargeUI.SetActive(true);
+		currentTriggerManager = disableAllLargeTVUI;
+		walkingScript.enabled = false;
+	}
+
+	public void examineTV4UI() {
+		disableAllLargeTVUI();
+		tv4LargeUI.SetActive(true);
+		currentTriggerManager = disableAllLargeTVUI;
+		walkingScript.enabled = false;
+	}
+
+	void disableAllLargeTVUI() {
+		tv1LargeUI.SetActive(false);
+		tv2LargeUI.SetActive(false);
+		tv3LargeUI.SetActive(false);
+		tv4LargeUI.SetActive(false);
+		walkingScript.enabled = true;
+	}
+}
