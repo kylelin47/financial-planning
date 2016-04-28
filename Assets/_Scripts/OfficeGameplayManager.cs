@@ -28,6 +28,8 @@ public class OfficeGameplayManager : MonoBehaviour {
 	public TriggerCapture bossSubtitleTriggerObject;
 	public TriggerCapture secretarySubtitleTriggerObject;
 
+	private bool didTakeCheck = false;
+
 	private delegate void TriggerManager();
 
 	void Start () {
@@ -45,7 +47,6 @@ public class OfficeGameplayManager : MonoBehaviour {
 			if (currentTriggerManager != null) {
 				Debug.Log("Cardboard Triggered");
 				currentTriggerManager();
-				// skipToFlying();
 			}
 		}
 	}
@@ -87,16 +88,20 @@ public class OfficeGameplayManager : MonoBehaviour {
 		if (bossClipIndex < bossClips.Length) {
 			bossAudioManager.PlayAudio(bossClips[bossClipIndex++]);
 		}
-	}
-
-	void offerCheckSubtitle() {
-		bossSubtitles.text = "Tap to Take Your Check";
-		walkingScript.enabled = false;
 
 		currentTriggerManager = tookCheck;
 	}
 
+	void offerCheckSubtitle() {
+		if (!didTakeCheck) {
+			bossSubtitles.text = "Tap to Take Your Check";
+		}
+	}
+
 	void tookCheck() {
+		didTakeCheck = true;
+		walkingScript.enabled = false;
+
 		bossSubtitles.text = "";
 		largeCheck.SetActive(true);
 		smallCheck.SetActive(false);
@@ -111,8 +116,9 @@ public class OfficeGameplayManager : MonoBehaviour {
 		if (bossClipIndex < bossClips.Length) {
 			bossAudioManager.PlayAudio(bossClips[bossClipIndex++]);
 		}
-
+			
 		walkingScript.enabled = true;
+		walkingScript.setCanWalk(true);
 		currentTriggerManager = null;
 	}
 
