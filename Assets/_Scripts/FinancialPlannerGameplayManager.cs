@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class FinancialPlannerGameplayManager : MonoBehaviour {
@@ -152,6 +153,6 @@ public class FinancialPlannerGameplayManager : MonoBehaviour {
 	}
 
 	public void advanceToNextLevel() {
-
+		SceneManager.LoadSceneAsync("scene3");
 	}
 }
