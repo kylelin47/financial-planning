@@ -4,8 +4,8 @@ using UnityEditor.SceneManagement;
 
 public class ChoiceController : MonoBehaviour {
 	public bool canMakeChoice;
-	public bool choice1;
-	public bool choice2;
+	public bool choseCivic; // true if chose civic
+	public bool chosePlanner; // true if chose financial planner
 	public string activeScene;
 	public int age;
 	// Use this for initialization
@@ -22,20 +22,23 @@ public class ChoiceController : MonoBehaviour {
 	}
 	// Update is called once per frame
 	void Update () {
-		if (activeScene == "Kyle - Choice 1") {
-			if (canMakeChoice) {
-				if (Input.GetButton ("Fire1") || Input.GetKey (KeyCode.Space)) {
-					choice1 = true;
-					EditorSceneManager.LoadScene ("Kyle - Sportscar");
-				} else if (Input.GetButton ("Fire2") || Input.GetKey (KeyCode.N)) {
-					choice1 = false;
-					EditorSceneManager.LoadScene ("Kyle - Sportscar");
-				}
+		if (activeScene == "Kyle - Sportscar") {
+			if (age >= 31) {
+				age = 30;
+				EditorSceneManager.LoadScene ("_Scenes/Office Scene Bonus");
 			}
-		} else if (activeScene == "Kyle - Sportscar") {
-			if (age > 30) {
-				Debug.Log ("Move to next scene");
-			}
+		}
+	}
+	public void SelectSportscar() {
+		if (canMakeChoice) {
+			choseCivic = false;
+			EditorSceneManager.LoadScene ("Kyle - Sportscar");
+		}
+	}
+	public void SelectCivic() {
+		if (canMakeChoice) {
+			choseCivic = true;
+			EditorSceneManager.LoadScene ("Kyle - Sportscar");
 		}
 	}
 }
