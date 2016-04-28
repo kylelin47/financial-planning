@@ -47,6 +47,13 @@ https://youtu.be/xeLvK2bnyKE
 | Small Office Layout | David B. | https://3dwarehouse.sketchup.com/model.html?id=657f2228d7ee9f7688d0326eb2489a45 |
 | The Beach Bar | John Henry | https://3dwarehouse.sketchup.com/model.html?id=uabae8175-fb92-4142-916f-e3ca09809203 |
 | wind 4.wav | Huggy13ear | https://www.freesound.org/people/Huggy13ear/sounds/138968/ |
+| house 1 | - | https://www.cgtrader.com/free-3d-models/architectural-exterior/house/house-24 |
+| house 2 | - | http://www.turbosquid.com/FullPreview/Index.cfm/ID/845261 |
+| lake scene | - | https://www.assetstore.unity3d.com/en/#!/content/55908 |
+| frame | - | http://www.turbosquid.com/FullPreview/Index.cfm/ID/422316 |
+| jet ski | - | http://www.turbosquid.com/FullPreview/Index.cfm/ID/672068 |
+| yacht | - | http://www.turbosquid.com/3d-models/executive-yacht-2-5-obj-free/544190 |
+
 
 ## Team Members
 - Zane Hooper
