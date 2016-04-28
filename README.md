@@ -24,7 +24,7 @@ The experience of making a choice between a short-term and a long-term benefit s
 ## Video
 
 ## Executable and Source Code
-[Source Code](https://github.com/kylelin47/financial-planning)
+[Source Code](https://github.com/kylelin47/financial-planning/archive/master.zip)
 [Executable]
 ## Non-Student Created Assets
 ### Audio
