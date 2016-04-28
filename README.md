@@ -22,10 +22,12 @@ The experience of making a choice between a short-term and a long-term benefit s
 * https://www.onefpa.org/journal/Pages/NOV14-A-Comparison-of-Retirement-Strategies-and-Financial-Planner-Value.aspx
 
 ## Video
+https://youtu.be/xeLvK2bnyKE
 
 ## Executable and Source Code
 [Source Code](https://github.com/kylelin47/financial-planning/archive/master.zip)
-[Executable]
+
+[Executable](https://www.dropbox.com/s/3bfjcklvi0mo44c/FinancialPlanningVR.zip?dl=0)
 ## Non-Student Created Assets
 ### Audio
 | Title | Author | Source |
