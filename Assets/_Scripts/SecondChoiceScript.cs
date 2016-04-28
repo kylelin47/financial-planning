@@ -29,7 +29,7 @@ public class SecondChoiceScript : MonoBehaviour {
 
 	void makeChoice(bool didChooseFinancialPlanner) {
 		if (choices != null) {
-			choices.choice1 = didChooseFinancialPlanner;
+			choices.chosePlanner = didChooseFinancialPlanner;
 		}
 
 		if (didChooseFinancialPlanner) {
