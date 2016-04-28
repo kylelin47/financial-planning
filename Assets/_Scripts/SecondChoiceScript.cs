@@ -8,11 +8,7 @@ public class SecondChoiceScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		var persistent = GameObject.FindWithTag("persistent");
-		if (persistent != null) {
-			choices = persistent.GetComponent<ChoiceController>();
-		}
-		Debug.Log(choices);
+		choices = (ChoiceController) FindObjectOfType(typeof(ChoiceController));
 	}
 	
 	// Update is called once per frame
@@ -33,6 +29,8 @@ public class SecondChoiceScript : MonoBehaviour {
 	void makeChoice(bool didChooseFinancialPlanner) {
 		if (choices != null) {
 			choices.chosePlanner = didChooseFinancialPlanner;
+			choices.age += (choices.chosePlanner ? 10 : 20)
+				+ (choices.choseCivic ? 10 : 20);
 		}
 
 		if (didChooseFinancialPlanner) {

@@ -8,9 +8,10 @@ public class EndGameText : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		text = gameObject.GetComponent<Text>();
+		ChoiceController cc = (ChoiceController) FindObjectOfType(typeof(ChoiceController));
 
-		int age = 30;
-		int wealth = 6000000;
+		int age = cc.age;
+		int wealth = (cc.choseCivic ? 3000000 : 100000) + (cc.chosePlanner ? 2000000 : 100000);
 		int earnings = wealth/10;
 
 		text.text = string.Format(

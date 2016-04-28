@@ -5,7 +5,9 @@ public class EndGameStartController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		bool isRich = true;
+		ChoiceController cc = (ChoiceController) FindObjectOfType(typeof(ChoiceController));
+
+		bool isRich = cc.choseCivic;
 		Vector3 targetPosition = transform.position;
 		Quaternion targetRotation = transform.rotation;
 

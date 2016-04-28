@@ -5,7 +5,10 @@ public class PlayerStartController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		bool isRich = true;
+		ChoiceController cc = (ChoiceController) FindObjectOfType(typeof(ChoiceController));
+
+		bool isRich = cc.choseCivic;
+
 		string startPosName = isRich ? "StartingPositionRich" : "StartingPositionPoor";
 		Transform startPos = GameObject.FindGameObjectsWithTag(startPosName)[0].transform;
 		transform.position = startPos.position;
