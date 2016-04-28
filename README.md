@@ -29,23 +29,24 @@ https://youtu.be/xeLvK2bnyKE
 
 [Executable](https://www.dropbox.com/s/3bfjcklvi0mo44c/FinancialPlanningVR.zip?dl=0)
 ## Non-Student Created Assets
-### Audio
-| Title | Author | Source |
-| --- | --- | --- |
-| Current NPR All Things Considered Theme | Wycliffe Gordon | https://www.youtube.com/watch?v=Qkq5CFGOBH4 |
-| Murmuring And Talking Men Sound Effect | Royal Free Sound | https://www.youtube.com/watch?v=wn2-xdnkPJo |
-| wind 4.wav | Huggy13ear | https://www.freesound.org/people/Huggy13ear/sounds/138968/ |
-
-### Models / Textures / Animations
 | Title | Author | Source |
 | --- | --- | --- |
 | Audi R8 GT Spyder Typ 42 2012 | dennisp | https://www.cgtrader.com/free-3d-models/car/sport/audi-r8-gt-spyder-typ-42-2012 |
+| Cork Board | fridal8 | https://3dwarehouse.sketchup.com/model.html?id=bc65a9113e7e330832a526e2e9a7e9ae |
+| Current NPR All Things Considered Theme | Wycliffe Gordon | https://www.youtube.com/watch?v=Qkq5CFGOBH4 |
 | Dirt 01 Game-Ready | The Texture Lab | https://www.assetstore.unity3d.com/en/#!/content/28938 |
 | Google Valley Honda - Fully Furnished & Loaded | Cordelle | https://3dwarehouse.sketchup.com/model.html?id=9a2f40bbf564127d7a7f613ed951587c |
 | Honda Civic Si Coupé 2012 | dennisp | https://www.cgtrader.com/free-3d-models/car/standard/honda-civic-si-coupe-2012 |
 | Idle/Driving/Walking/Turn 90 | Adobe | http://www.mixamo.com |
 | Kajaman's Roads - Free | Kajaman | https://www.assetstore.unity3d.com/en/#!/content/52628 |
+| More Outdoor Furniture | Oz the Wiz | https://3dwarehouse.sketchup.com/model.html?id=53f1f96da2325f54d367eb761a269ab9 |
+| Murmuring And Talking Men Sound Effect | Royal Free Sound | https://www.youtube.com/watch?v=wn2-xdnkPJo |
+| Otis Elevator | TheArchitect | https://3dwarehouse.sketchup.com/model.html?id=3b18673b3688a9f9bbda4bd2b976d8f7 |
+| Pina Colada | Waveydavey | https://3dwarehouse.sketchup.com/model.html?id=28e8dbbe6ad1d6039c3cb90632bf17f3 |
 | Remy/Regina/Malcolm/Lima | Adobe | http://www.mixamo.com |
+| Small Office Layout | David B. | https://3dwarehouse.sketchup.com/model.html?id=657f2228d7ee9f7688d0326eb2489a45 |
+| The Beach Bar | John Henry | https://3dwarehouse.sketchup.com/model.html?id=uabae8175-fb92-4142-916f-e3ca09809203 |
+| wind 4.wav | Huggy13ear | https://www.freesound.org/people/Huggy13ear/sounds/138968/ |
 
 ## Team Members
 - Zane Hooper
