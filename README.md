@@ -9,6 +9,7 @@ Furthermore, paying an upfront cost of a few thousand dollars for an accredited 
 However, it's difficult to visualize and place importance on events that may not happen for 40 years; the short-term benefits of using the money that should be placed toward retirement/smart financial investment decisions for luxury goods or fun activities is more immediate and easier to think of. Thus, by placing an imagined future where the user can experience the retirement that they have been able to save for, we hope that the long-term impact of decisions made now will be more clearly felt.
 
 Our project has two major decision moments:
+
 1. The decision on whether to purchase an expensive sportscar or one more fitting your price range
 2. The decision on whether to hire a financial planner or take a vacation
 
@@ -23,10 +24,8 @@ The experience of making a choice between a short-term and a long-term benefit s
 ## Video
 
 ## Executable and Source Code
-
-## User Opinion Survey Results
-### Participant Results
-
+[Source Code](https://github.com/kylelin47/financial-planning)
+[Executable]
 ## Non-Student Created Assets
 ### Audio
 | Title | Author | Source |
