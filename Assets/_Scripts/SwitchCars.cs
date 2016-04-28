@@ -16,7 +16,7 @@ public class SwitchCars : MonoBehaviour {
 			player.transform.position = civicWaypoint.position;
 			player.transform.parent = civicWaypoint;
 			player.transform.rotation = civicWaypoint.rotation;
-			sportsCarSound.volume = 1;
+			sportsCarSound.volume = 8;
 		} else {
 			coupeRadio.volume = 0;
 			driverAvatar.SetActive (false);
