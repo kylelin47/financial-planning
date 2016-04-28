@@ -8,7 +8,10 @@ public class SecondChoiceScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		choices = GameObject.FindWithTag("persistent").GetComponent<ChoiceController>();
+		var persistent = GameObject.FindWithTag("persistent");
+		if (persistent != null) {
+			choices = persistent.GetComponent<ChoiceController>();
+		}
 		Debug.Log(choices);
 	}
 	

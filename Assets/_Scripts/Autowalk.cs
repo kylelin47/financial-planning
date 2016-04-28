@@ -128,6 +128,10 @@ public class Autowalk : MonoBehaviour
 	public void setCanWalk(bool canWalk) {
 		canToggleWalking = canWalk;
 	}
+
+	public void setIsWalking(bool isWalking) {
+		this.isWalking = isWalking;
+	}
     
     void OnCollisionEnter(Collision col)
     {

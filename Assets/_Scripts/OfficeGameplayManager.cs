@@ -17,6 +17,8 @@ public class OfficeGameplayManager : MonoBehaviour {
 	public VoiceActingAudioManager bossAudioManager;
 	public VoiceActingAudioManager secretaryAudioManager;
 
+	public TalkingIdleAnimator bossAnimator;
+
 	public AudioClip[] bossClips;
 	public AudioClip[] secretaryClips;
 
@@ -27,6 +29,8 @@ public class OfficeGameplayManager : MonoBehaviour {
 	TriggerManager currentTriggerManager;
 	public TriggerCapture bossSubtitleTriggerObject;
 	public TriggerCapture secretarySubtitleTriggerObject;
+
+	private bool didTakeCheck = false;
 
 	private delegate void TriggerManager();
 
@@ -45,7 +49,6 @@ public class OfficeGameplayManager : MonoBehaviour {
 			if (currentTriggerManager != null) {
 				Debug.Log("Cardboard Triggered");
 				currentTriggerManager();
-				// skipToFlying();
 			}
 		}
 	}
@@ -66,6 +69,7 @@ public class OfficeGameplayManager : MonoBehaviour {
 		if (bossClipIndex < bossClips.Length) {
 			bossAudioManager.PlayAudio(bossClips[bossClipIndex++]);
 		}
+		bossAnimator.setIsTalking(true);
 	}
 
 	void bossSubtitle2() {
@@ -87,16 +91,22 @@ public class OfficeGameplayManager : MonoBehaviour {
 		if (bossClipIndex < bossClips.Length) {
 			bossAudioManager.PlayAudio(bossClips[bossClipIndex++]);
 		}
-	}
-
-	void offerCheckSubtitle() {
-		bossSubtitles.text = "Tap to Take Your Check";
-		walkingScript.enabled = false;
 
 		currentTriggerManager = tookCheck;
 	}
 
+	void offerCheckSubtitle() {
+		bossAnimator.setIsTalking(false);
+		if (!didTakeCheck) {
+			bossSubtitles.text = "Tap to Take Your Check";
+		}
+	}
+
 	void tookCheck() {
+		bossAnimator.setIsTalking(false);
+		didTakeCheck = true;
+		walkingScript.enabled = false;
+
 		bossSubtitles.text = "";
 		largeCheck.SetActive(true);
 		smallCheck.SetActive(false);
@@ -111,8 +121,9 @@ public class OfficeGameplayManager : MonoBehaviour {
 		if (bossClipIndex < bossClips.Length) {
 			bossAudioManager.PlayAudio(bossClips[bossClipIndex++]);
 		}
-
+			
 		walkingScript.enabled = true;
+		walkingScript.setCanWalk(true);
 		currentTriggerManager = null;
 	}
 

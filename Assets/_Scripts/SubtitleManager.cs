@@ -11,6 +11,8 @@ public class SubtitleManager : MonoBehaviour {
 
 	public delegate void OnSubtitleFinished();
 
+	private Coroutine currentRoutine;
+
 	// Use this for initialization
 	void Start () {
 		// testSubtitleSequence();
@@ -22,7 +24,10 @@ public class SubtitleManager : MonoBehaviour {
 	}
 
 	public void playSubtitleForTime(string text, float duration, OnSubtitleFinished completionFunction) {
-		StartCoroutine(playSubtitleForTimeAsync(text, duration, completionFunction));
+		if (currentRoutine != null) {
+			StopCoroutine(currentRoutine);
+		}
+		currentRoutine = StartCoroutine(playSubtitleForTimeAsync(text, duration, completionFunction));
 	}
 
 	private IEnumerator playSubtitleForTimeAsync(string text, float duration, OnSubtitleFinished completionFunction) {
