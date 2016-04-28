@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEditor.Animations;
 using System.Collections;
 
 public class TalkingIdleAnimator : MonoBehaviour {

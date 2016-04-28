@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 
 public class ChoiceController : MonoBehaviour {
 	public bool canMakeChoice;
@@ -12,12 +12,12 @@ public class ChoiceController : MonoBehaviour {
 	void Start () {
 		age = 25;
 		DontDestroyOnLoad (transform.gameObject);
-		activeScene = EditorSceneManager.GetActiveScene ().name;
+		activeScene = SceneManager.GetActiveScene ().name;
 		Debug.Log (activeScene);
 	}
 	void OnLevelWasLoaded(int level) {
 		canMakeChoice = false;
-		activeScene = EditorSceneManager.GetActiveScene ().name;
+		activeScene = SceneManager.GetActiveScene ().name;
 		Debug.Log (activeScene);
 	}
 	// Update is called once per frame
@@ -25,20 +25,20 @@ public class ChoiceController : MonoBehaviour {
 		if (activeScene == "Kyle - Sportscar") {
 			if (age >= 31) {
 				age = 30;
-				EditorSceneManager.LoadScene ("_Scenes/Office Scene Bonus");
+				SceneManager.LoadScene ("_Scenes/Office Scene Bonus");
 			}
 		}
 	}
 	public void SelectSportscar() {
 		if (canMakeChoice) {
 			choseCivic = false;
-			EditorSceneManager.LoadScene ("Kyle - Sportscar");
+			SceneManager.LoadScene ("Kyle - Sportscar");
 		}
 	}
 	public void SelectCivic() {
 		if (canMakeChoice) {
 			choseCivic = true;
-			EditorSceneManager.LoadScene ("Kyle - Sportscar");
+			SceneManager.LoadScene ("Kyle - Sportscar");
 		}
 	}
 }
