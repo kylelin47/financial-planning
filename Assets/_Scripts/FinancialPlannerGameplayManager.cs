@@ -30,6 +30,8 @@ public class FinancialPlannerGameplayManager : MonoBehaviour {
 	public TriggerCapture bossSubtitleTriggerObject;
 	public TriggerCapture secretarySubtitleTriggerObject;
 
+	public FinancialPlannerAnimator mcgillAnimator;
+
 	private delegate void TriggerManager();
 
 	void Start () {
@@ -58,6 +60,7 @@ public class FinancialPlannerGameplayManager : MonoBehaviour {
 		if (bossClipIndex < bossClips.Length) {
 			bossAudioManager.PlayAudio(bossClips[bossClipIndex++]);
 		}
+		mcgillAnimator.setIsTalking(true);
 	}
 
 	public void startBossSubtitles() {
@@ -73,6 +76,7 @@ public class FinancialPlannerGameplayManager : MonoBehaviour {
 		if (bossClipIndex < bossClips.Length) {
 			bossAudioManager.PlayAudio(bossClips[bossClipIndex++]);
 		}
+		mcgillAnimator.pointForward();
 	}
 
 	void bossSubtitle3() {
@@ -80,6 +84,7 @@ public class FinancialPlannerGameplayManager : MonoBehaviour {
 		if (bossClipIndex < bossClips.Length) {
 			bossAudioManager.PlayAudio(bossClips[bossClipIndex++]);
 		}
+		mcgillAnimator.pointBackward();
 	}
 
 	void bossSubtitle4() {
@@ -90,6 +95,7 @@ public class FinancialPlannerGameplayManager : MonoBehaviour {
 	}
 
 	void enableCharts() {
+		mcgillAnimator.setIsTalking(false);
 		tvCharts.SetActive(true);
 	}
 		

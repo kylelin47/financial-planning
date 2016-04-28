@@ -17,6 +17,8 @@ public class OfficeGameplayManager : MonoBehaviour {
 	public VoiceActingAudioManager bossAudioManager;
 	public VoiceActingAudioManager secretaryAudioManager;
 
+	public TalkingIdleAnimator bossAnimator;
+
 	public AudioClip[] bossClips;
 	public AudioClip[] secretaryClips;
 
@@ -67,6 +69,7 @@ public class OfficeGameplayManager : MonoBehaviour {
 		if (bossClipIndex < bossClips.Length) {
 			bossAudioManager.PlayAudio(bossClips[bossClipIndex++]);
 		}
+		bossAnimator.setIsTalking(true);
 	}
 
 	void bossSubtitle2() {
@@ -93,12 +96,14 @@ public class OfficeGameplayManager : MonoBehaviour {
 	}
 
 	void offerCheckSubtitle() {
+		bossAnimator.setIsTalking(false);
 		if (!didTakeCheck) {
 			bossSubtitles.text = "Tap to Take Your Check";
 		}
 	}
 
 	void tookCheck() {
+		bossAnimator.setIsTalking(false);
 		didTakeCheck = true;
 		walkingScript.enabled = false;
 
